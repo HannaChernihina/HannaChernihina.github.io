@@ -117,8 +117,10 @@ p {
 }
 .header-banner img  {
     width: 100%;
-    height: auto;
+    height: 300px;
     display: block;
+    object-fit: cover;
+    
 }
 .header-banner2 img {
     display: none;

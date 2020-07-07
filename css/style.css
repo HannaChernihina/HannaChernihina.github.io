@@ -117,9 +117,9 @@ p {
 }
 .header-banner img  {
     width: 100%;
-    max-height: 400px;
+    /* max-height: 400px; */
     display: block;
-    object-fit: scale-down;
+    /* object-fit: scale-down; */
     
 }
 .header-banner2 img {

@@ -22,7 +22,9 @@
     }
     .header-banner img {
         width: unset;
+        max-height: 350px;
     }
+   
 
     .header {
         height: auto;

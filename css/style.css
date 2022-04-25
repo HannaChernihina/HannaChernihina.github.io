@@ -169,14 +169,18 @@ p {
 }
 .my-program {
     text-align: center;
-    height: 206px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 10px;
 }
 .my-program__img img {
-    width: 89px;
+    width: 80px;
+    min-height: 90px;
+    object-fit: contain;
 }
+
 .my-program__img.my-program__img-width img{
     width: 60px;
 }

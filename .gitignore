@@ -1,7 +1,9 @@
+# Logs
 
-/node_modules
+# Dependency directories
+node_modules/
 
-/enterprise__closure
-/barbershop
-/mavic
-/solarpower
+enterprise__closure/
+barbershop/
+mavic/
+solarpower/

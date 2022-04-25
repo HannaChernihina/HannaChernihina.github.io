@@ -1,8 +1,33 @@
+
+
+
 @media only screen and (max-width: 992px){
+    .slick_projectShow.slick-initialized.slick-slider.slick-dotted {
+        margin-left: 0rem;
+    }
+    .titlename_desc p {
+        font-size: 22px;
+    }
+    .titlename p {
+        font-size: 14px;
+    }
+    .project_item img {
+        height: 250px;
+    }
+    .aboutme_img {
+        order: 1;
+    }
+    .content-about{
+        order: 2;
+    }
+    .header-banner img {
+        width: unset;
+    }
+
     .header {
         height: auto;
         width: 100%;
-        padding: 0 0 80px;
+        padding: 0 0 10px;
     }
     .container {
         padding: 0 30px;

@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
+    
+    
 </head>
 
 <body>
@@ -35,33 +39,39 @@
             </nav>
             
             <div class="header-content">
+                
                 <div class="header-content__title">
                     <h1>Chernihina<br>Hanna</h1>
                 </div>
                 <div class="header-content__text">
                     <p>Front End Developer</p>
                     <p>26 years old</p>
-                    <p>Lille, Hauts-de-France, France</p>
+                    <p>Cysoing, Hauts-de-France, France</p>
                 </div>
             </div>
         </div>
     </header>
 
    <!-- section-about -->
-    <section class="aboutme">
+    <section class="aboutme" id="about">
+
     <div class="header-banner">
         <div class="content-about">
-            <div class="title">
-                <h2>About me</h2>
-            </div>
             <div class="text">
-                <p> Hi, I'm Hanna. I was born in Ukraine (Kharkov).  I'm interested in web develop and everything connected with it.
-                </p>
-                <p></p>
-                <p></p>
+                <p class="text_top"><span>I develop products</span><br> that delight and
+                    inspire people.</p>
+                <p> Hi, I'm Hanna. I was born in Ukraine (Kharkov).</p>
+                <p>I have 4+ work experience web development.</p>
+                <p>I do layout of landing pages, layout stretching on WordPress and OpenCart, plugin improvements, customization of ready-made templates, support for online stores on different CMS and carried freelance orders.
+                    </p>
+                <p>I always like to set myself new tasks that I fulfill with great pleasure.
+                    The first place for me is the quality of the service provided.</p>
+                <p>In my free time, I improve Javascript skills, React.</p>
             </div>
         </div>
-        <img src="img/photo_dev/devt2.png" alt="banner">
+        <div class="aboutme_img">
+            <img src="img/photo_dev/devt2.png" alt="banner">
+        </div>
     </div>
 </section>
 
@@ -70,12 +80,22 @@
     <!-- section-Skills -->
     <section class="skills" id="skills">
         <div class="content">
-            <div class="title">
+
+
+            <!-- <div class="title">
                 <h2>Skills</h2>
             </div>
             <div class="text">
                 <p>I work with</p>
+            </div> -->
+            <div class="titlename_desc">
+                
+                <p>Skills</p>
             </div>
+            <div class="titlename">
+                <p>I work with</p>
+            </div>
+
         </div>
         <div class="container">
             <div class="programs">
@@ -255,58 +275,80 @@
             </div>
         </div>
     </section>
-    <!-- section-portfolio -->
-    <section class="portfolio" id="portfolio">
-        <div class="content">
-            <div class="title">
-                <h2>Portfolio</h2>
-            </div>
+
+
+
+<section class="portfolio" id="portfolio">
+    <!-- <div class="title">
+        <h2>Portfolio</h2>
+    </div> -->
+    <div class="titlename">
+        <p>projects</p>
+    </div>
+    <div class="titlename_desc">
+        <p>I bring results. <br>A few examples of my work.</p>
+    </div>
+
+    <div class="slick_projectShow">
+
+        <div class="project_item">
+            <img src="img/work/demo-page-1.png" alt="work-img">
+            <p class="project_item__name"><a href="/development/" target="_blanck">Landing page</a></p>
+            <p class="project_item__descriptions">use grid, animate css, owl-carousel.</p>
+            <p class="project_item__stack">
+                <span class="stack_view">bootstrap</span>
+            </p>
         </div>
-        <div class="container">
-            <div class="portfolio__item">
-                <div class="work-img">
-                    <img src="img/work/prod__1.png" alt="work-img">
-                </div>
-                <div class="work-link">
-                    <a href="/development/" target="_blanck">Landing page</a>
-                    <p>(bootstrap grid,animate css,owl-carousel)</p>
-                </div>
-            </div>
-            <!-- <div class="portfolio__item">
-                <div class="work-img">
-                    <img src="img/work/prod__2.png" alt="work-img">
-                </div>
-                <div class="work-link">
-                    <a href="/barbershop/" target="_blanck">Landing page</a>
-                    <p>(animate css,html,slick-slider)</p>
-                </div>
-            </div> -->
-      
-            <p></p>
 
-            <div class="portfolio__item">
-                <div class="work-img">
-                    <img src="img/work/AMK.png" alt="work-img">
-                </div>
-                <div class="work-link">
-                    <a href="https://amk-climate.com.ua/" target="_blanck">amk-climate.com.ua</a>
-                    <p>(Opencart)</p>
-                </div>
-            </div>
-
-
-            <div class="portfolio__item">
-                <div class="work-img">
-                    <img src="img/work/prod__4.png" alt="work-img">
-                </div>
-                <div class="work-link">
-                    <a href="http://am-work.com.ua/" target="_blanck">am-work.com.ua</a>
-                    <p>(Woordpress)</p>
-                </div>
-            </div>
-
+        <div class="project_item">
+            <img src="img/work/amk-climate-1.png" alt="work-img">
+            <p class="project_item__name"> <a href="https://amk-climate.com.ua/">amk-climate.com.ua</a></p>
+            <p class="project_item__descriptions">Air conditioner company website.</p>
+            <p class="project_item__stack">
+                <span class="stack_cms">Opencart</span>
+                <span class="stack_js">jquery</span>
+                <span class="stack_backend">PHP</span>
+            </p>
         </div>
-    </section>
+
+        <div class="project_item">
+            <img src="img/work/citydez-1.png" alt="work-img">
+            <p class="project_item__name"><a href="https://citydez.com.ua/">citydez.com.ua</a></p>
+            <p class="project_item__descriptions">Pest control business website.</p>
+            <p class="project_item__stack">
+                <span class="stack_cms">Woordpress</span>
+                <span class="stack_js">javascript</span>
+                <span class="stack_backend">PHP</span>
+            </p>
+        </div>
+
+        <div class="project_item">
+            <img src="img/work/litokol-1.png" alt="work-img">
+            <p class="project_item__name"><a href="https://shop.litokol.ua/">litokol.ua</a></p>
+            <p class="project_item__descriptions">Building materials company website.</p>
+            <p class="project_item__stack">
+                <span class="stack_cms">Opencart</span>
+                <span class="stack_js">jquery</span>
+                <span class="stack_backend">PHP</span>
+            </p>
+        </div>
+
+        <div class="project_item">
+            <img src="img/work/karakal-1.png" alt="work-img">
+            <p class="project_item__name"><a href="">karakal.com.ua</a></p>
+            <p class="project_item__descriptions">Website for a company selling sportswear and equipment.</p>
+            <p class="project_item__stack">
+                <span class="stack_cms">Opencart</span>
+                <span class="stack_js">javascript</span>
+                <span class="stack_backend">PHP</span>
+            </p>
+        </div>
+ 
+      </div>            
+</section>
+<!-- end section-portfolio -->
+
+
     <!-- section footer -->
     <footer class="footer" id="footer">
         <div class="container">
@@ -354,10 +396,14 @@
 
 </body>
 <script src="libs/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="libs/slick/slick.min.js"></script>
+    <script src="js/slick_custom.js"></script>
 <script src="libs/page-scroll-to-id-master/jquery.malihu.PageScroll2id.js"></script>
 <script src="libs/wow/wow.min.js"></script>
 <script src="js/wow.js"></script>
 <script src="js/scroll.js"></script>
 <script src="js/index.js"></script>
+
+
 
 </html>

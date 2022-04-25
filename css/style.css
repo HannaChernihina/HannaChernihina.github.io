@@ -149,7 +149,7 @@ p {
     text-align: center;
 }
 .text p {
-    margin: 0 0 43px 0;
+    margin: 0 0 15px 0;
 }
 /* ===skills=== */
 .skills {
@@ -319,9 +319,9 @@ p {
     position: fixed;
     right: 35px;
     bottom: 30px;
-    color: #070707;
+    color: #ffb456;
     font-size: 24px;
-    border: 2px solid #070707;
+    border: 2px solid #ffb456;
     border-radius: 8px;
 }
 .top:hover{
@@ -347,8 +347,11 @@ p {
 
 .header-banner {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     background: #F6F6F6;
+    padding: 0 30px ;
+    padding-top: 3rem;
 }
 
 .content-about {
@@ -360,3 +363,98 @@ p {
 .content-about .text {
     max-width: 40rem;
 }
+
+
+/* about me  */
+.text_top span {
+    color: #ffb456;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text_top {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 3rem;
+}
+.aboutme_img img {
+    min-width: 300px;
+}
+
+
+/* my project  */
+
+.portfolio {
+    margin: 5rem 0;
+}
+.project_item img {
+    height: 300px;
+    object-fit: contain;
+    width: 100%;
+}
+#portfolio {
+    background: #000;
+    color: #fff;
+    padding: 30px;
+}
+#portfolio a {
+    /* color: #ffb456; */
+    color: #c5bdb4;
+    font-size: 19px;
+    text-transform: uppercase;
+    margin: 5px 0px 15px 0px;
+}
+#portfolio a:hover{
+    color: #ffbc00;
+}
+.project_item {
+    margin: 0px 10px;
+}
+.project_item__stack span {
+    font-size: 13px;
+}
+.stack_cms,.stack_js, .stack_backend, .stack_view { 
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+.stack_cms {
+    background: #b345a0;  
+}
+.stack_js { 
+    background: #ebc408;  
+}
+.stack_backend{
+    background: #eb0828;
+}
+.stack_view{
+    background: #49cee6;
+}
+
+.titlename_desc p {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: initial;
+}
+.titlename p {
+    color: #ffb456;
+    font-size: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.titlename_desc {
+    margin: 15px 10px;
+}
+.titlename {
+    margin: 0px 10px;
+}
+
+.slick_projectShow.slick-initialized.slick-slider.slick-dotted { 
+    margin-left:10rem;
+}
+.project_item__descriptions {
+    margin-bottom: 10px;
+}
+
+

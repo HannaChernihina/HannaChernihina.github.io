@@ -351,10 +351,10 @@ p {
 
 .header-banner {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     flex-wrap: wrap;
     background: #F6F6F6;
-    padding: 0 30px ;
+    padding: 0 0 0 30px;
     padding-top: 3rem;
 }
 

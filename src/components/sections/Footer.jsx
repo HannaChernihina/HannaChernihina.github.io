@@ -122,7 +122,7 @@ const Footer = () => {
         <SupportButton href="https://www.buymeacoffee.com/chernihinaHanna" target="_blank" rel="noopener noreferrer">
           Support My Work
         </SupportButton>
-        <Copyright>&copy; 2024 HCH. All rights reserved.</Copyright>
+        <Copyright>&copy; 2025 HCH. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

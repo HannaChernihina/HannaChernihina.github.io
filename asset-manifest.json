@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.58a0c615.css",
-    "main.js": "/static/js/main.be33f597.js",
+    "main.js": "/static/js/main.ed708d05.js",
     "static/media/litokol-2.png": "/static/media/litokol-2.18e87280ec8d16d5eae5.png",
     "static/media/amk-climate-2.png": "/static/media/amk-climate-2.6e7ad1ff3ccf64c9b71b.png",
     "static/media/Image.png": "/static/media/Image.10a4a24ff3b575d77040.png",
@@ -27,10 +27,10 @@
     "static/media/expressjs.png": "/static/media/expressjs.e3d4f9e5c8b469e45838.png",
     "index.html": "/index.html",
     "main.58a0c615.css.map": "/static/css/main.58a0c615.css.map",
-    "main.be33f597.js.map": "/static/js/main.be33f597.js.map"
+    "main.ed708d05.js.map": "/static/js/main.ed708d05.js.map"
   },
   "entrypoints": [
     "static/css/main.58a0c615.css",
-    "static/js/main.be33f597.js"
+    "static/js/main.ed708d05.js"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "portfolio-hch",
   "version": "0.1.1",
-  "homepage": "https://hannachernihina.github.io",
+  "homepage": "https://HannaChernihina.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.1.0",

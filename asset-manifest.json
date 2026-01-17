@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.58a0c615.css",
+    "main.js": "/static/js/main.ed708d05.js",
+    "static/media/litokol-2.png": "/static/media/litokol-2.18e87280ec8d16d5eae5.png",
+    "static/media/amk-climate-2.png": "/static/media/amk-climate-2.6e7ad1ff3ccf64c9b71b.png",
+    "static/media/Image.png": "/static/media/Image.10a4a24ff3b575d77040.png",
+    "static/media/citydez-1.png": "/static/media/citydez-1.2773551567b4e233f17e.png",
+    "static/media/react.png": "/static/media/react.fa48327e65b21e3edae7.png",
+    "static/media/Xcode.png": "/static/media/Xcode.4e55fef9cdb2ffe31940.png",
+    "static/media/htmlcss.png": "/static/media/htmlcss.9e2517dc2f32727cd3ac.png",
+    "static/media/Vs.png": "/static/media/Vs.8e88067c6a37b72b7b12.png",
+    "static/media/node.png": "/static/media/node.aca5f5f1cd9de98d4edc.png",
+    "static/media/db.png": "/static/media/db.635cd21465c1f9f44325.png",
+    "static/media/nginx.png": "/static/media/nginx.47142b34604d153f148e.png",
+    "static/media/cms.png": "/static/media/cms.d90d51225a4d94098754.png",
+    "static/media/postgr.jpg": "/static/media/postgr.f7bed31ce8bc3e91617f.jpg",
+    "static/media/azure.png": "/static/media/azure.6e06c048b84b463cc4ab.png",
+    "static/media/hiv.jpg": "/static/media/hiv.22011bd30f399c87363a.jpg",
+    "static/media/swift.png": "/static/media/swift.fa95f3dd6b1cb2d828a4.png",
+    "static/media/postman.png": "/static/media/postman.1c755885df84459bdfb0.png",
+    "static/media/MUI.png": "/static/media/MUI.5b2d8a0a309d9f7d47c1.png",
+    "static/media/figma.png": "/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/socket.png": "/static/media/socket.047b62ac2bb2113f29bc.png",
+    "static/media/Git.png": "/static/media/Git.6c050f34460a4f1fa407.png",
+    "static/media/python.png": "/static/media/python.82fcc73e3571f04050a6.png",
+    "static/media/expressjs.png": "/static/media/expressjs.e3d4f9e5c8b469e45838.png",
+    "index.html": "/index.html",
+    "main.58a0c615.css.map": "/static/css/main.58a0c615.css.map",
+    "main.ed708d05.js.map": "/static/js/main.ed708d05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58a0c615.css",
+    "static/js/main.ed708d05.js"
+  ]
+}

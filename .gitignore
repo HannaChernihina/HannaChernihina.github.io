@@ -1,0 +1,13 @@
+# Logs
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+.vite/
+
+enterprise__closure/
+barbershop/
+mavic/
+solarpower/

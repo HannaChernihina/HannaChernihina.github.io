@@ -12,7 +12,7 @@ import VuetifyIcon from "@/assets/skills/vuetify.svg?component";
 import VuedotjsIcon from "@/assets/skills/vuedotjs.svg?component";
 import SwiftIcon from "@/assets/skills/swift.svg?component";
 import ReactIcon from "@/assets/skills/react.svg?component";
-import ReactNativeIcon from "@/assets/skills/reactnative.svg?component";
+import ReactnativeIcon from "@/assets/skills/reactnative.svg?component";
 import Postman from "@/assets/skills/postman.svg?component";
 import FigmaIcon from "@/assets/skills/figma.svg?component";
 import FireIcon from "@/assets/skills/firebase.svg?component";
@@ -125,7 +125,7 @@ export const useContentStore = defineStore("content", {
       {
         name: "React Native",
         level: "Intermediate",
-        icon: ReactNativeIcon,
+        icon: ReactnativeIcon,
         hoverClass: "group-hover:text-blue-500",
       },
       {

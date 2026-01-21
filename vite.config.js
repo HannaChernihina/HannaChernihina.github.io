@@ -1,10 +1,27 @@
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
+// vite.config.js
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import path from 'path'
+import tailwindcss from 'tailwindcss'
+import autoprefixer from 'autoprefixer'
+import svgLoader from "vite-svg-loader";
 
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue(), svgLoader()],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src')
+    }
+  },
+  css: {
+    postcss: {
+      plugins: [
+        tailwindcss,
+        autoprefixer,
+      ]
+    }
+  },
   server: {
-    port: 5173
+    port: 3000
   }
-});
-
+})

@@ -7,13 +7,17 @@ defineProps({
   subtitle: {
     type: String,
     default: ''
+  },
+  sectionTitle: {
+    type: String,
+    default: ''
   }
 });
 </script>
 
 <template>
   <div class="space-y-2">
-    <p class="animate-fade-in-left text-sm uppercase tracking-[0.3em] text-primary">Portfolio</p>
+    <p class="animate-fade-in-left text-sm uppercase tracking-[0.3em] text-primary">{{ sectionTitle }}</p>
     <h2 class="animate-fade-in-up text-3xl font-bold text-slate-900 dark:text-slate-50 sm:text-4xl" style="animation-delay: 0.1s">
       <slot name="title">{{ title }}</slot>
     </h2>

@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#fb4f3d'
+        primary: '#f83f2e'
       },
       animation: {
         'fade-in': 'fadeIn 0.6s ease-out',

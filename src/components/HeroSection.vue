@@ -50,6 +50,13 @@ defineProps({
             <span class="h-2 w-2 animate-pulse rounded-full bg-emerald-400"></span>
             <span>Open to work</span>
           </div>
+
+           <!-- <div
+            class="flex items-center gap-2 rounded-full border border-slate-400 px-4 py-2 text-sm text-slate-700 transition-all hover:scale-105 hover:border-primary/50 dark:border-slate-700 dark:text-slate-300"
+          >
+           <span class="animate-pulse text-lg">😍</span>
+            <v-btn>About my personality</v-btn>
+          </div> -->
         </div>
       </slot>
     </div>

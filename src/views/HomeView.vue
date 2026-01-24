@@ -1,20 +1,21 @@
 <script setup>
-import { onMounted, nextTick } from 'vue';
-import HeroSection from '@/components/HeroSection.vue';
-import SectionTitle from '@/components/SectionTitle.vue';
-import SkillsIconBar from '@/components/SkillsIconBar.vue';
-import ExperienceTimeline from '@/components/ExperienceTimeline.vue';
-// import ProjectsGrid from '@/components/ProjectsGrid.vue';
-import EducationList from '@/components/EducationList.vue';
-import CertificatesGrid from '@/components/CertificatesGrid.vue';
-import ThemeToggle from '@/components/ThemeToggle.vue';
-import { useTheme } from '@/composables/useTheme';
-import { useScrollAnimation } from '@/composables/useScrollAnimation';
-import { useContentStore } from '@/stores/content';
-import { storeToRefs } from 'pinia';
+import { onMounted, nextTick } from "vue";
+import HeroSection from "@/components/HeroSection.vue";
+import SectionTitle from "@/components/SectionTitle.vue";
+import SkillsIconBar from "@/components/SkillsIconBar.vue";
+import ExperienceTimeline from "@/components/ExperienceTimeline.vue";
+import ProjectsGrid from "@/components/ProjectsGrid.vue";
+import EducationList from "@/components/EducationList.vue";
+import CertificatesGrid from "@/components/CertificatesGrid.vue";
+import ThemeToggle from "@/components/ThemeToggle.vue";
+import { useTheme } from "@/composables/useTheme";
+import { useScrollAnimation } from "@/composables/useScrollAnimation";
+import { useContentStore } from "@/stores/content";
+import { storeToRefs } from "pinia";
 
 const contentStore = useContentStore();
-const { hero, skills, experiences, projects, education, certificates } = storeToRefs(contentStore);
+const { hero, skills, experiences, projects, education, certificates } =
+  storeToRefs(contentStore);
 
 const { initTheme } = useTheme();
 const { observeElements } = useScrollAnimation();
@@ -22,51 +23,62 @@ const { observeElements } = useScrollAnimation();
 onMounted(async () => {
   initTheme();
   await nextTick();
-  observeElements('[data-animate]');
+  observeElements("[data-animate]");
 });
 </script>
 
 <template>
-  <div class="min-h-screen bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+  <div
+    class="min-h-screen bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100"
+  >
     <div class="mx-auto flex max-w-6xl flex-col gap-16 px-6 py-10 sm:py-14">
-      <header class="animate-fade-in-down flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+      <header
+        class="animate-fade-in-down flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
+      >
         <div class="flex items-center gap-2 text-lg font-semibold">
-          <span class="text-primary transition-transform hover:scale-110">Hanna.CH()</span>
-          <span class="hidden text-sm text-slate-500 dark:text-slate-400 sm:inline">portfolio</span>
+          <span class="text-primary transition-transform hover:scale-110"
+            >Hanna.CH()</span
+          >
+          <span
+            class="hidden text-sm text-slate-500 dark:text-slate-400 sm:inline"
+            >portfolio</span
+          >
         </div>
-        <nav class="flex flex-wrap items-center gap-3 text-sm text-slate-600 dark:text-slate-300 sm:gap-6">
-          <a 
-            class="relative transition-all hover:text-primary hover:scale-105 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full" 
+        <nav
+          class="flex flex-wrap items-center gap-3 text-sm text-slate-600 dark:text-slate-300 sm:gap-6"
+        >
+          <a
+            class="relative transition-all hover:text-primary hover:scale-105 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full"
             href="#about"
           >
             About
           </a>
-          <a 
-            class="relative transition-all hover:text-primary hover:scale-105 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full" 
+          <a
+            class="relative transition-all hover:text-primary hover:scale-105 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full"
             href="#skills"
           >
             Skills
           </a>
-          <a 
-            class="relative transition-all hover:text-primary hover:scale-105 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full" 
+          <a
+            class="relative transition-all hover:text-primary hover:scale-105 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full"
             href="#experience"
           >
             Experience
           </a>
-          <a 
-            class="relative transition-all hover:text-primary hover:scale-105 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full" 
+          <a
+            class="relative transition-all hover:text-primary hover:scale-105 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full"
             href="#projects"
           >
             Projects
           </a>
-          <a 
-            class="relative transition-all hover:text-primary hover:scale-105 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full" 
+          <a
+            class="relative transition-all hover:text-primary hover:scale-105 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full"
             href="#education"
           >
             Education
           </a>
-          <a 
-            class="relative transition-all hover:text-primary hover:scale-105 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full" 
+          <a
+            class="relative transition-all hover:text-primary hover:scale-105 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full"
             href="#certificates"
           >
             Certificates
@@ -84,7 +96,7 @@ onMounted(async () => {
       </header>
 
       <main class="flex flex-col gap-20">
-        <section id="about" data-animate class="animate-fade-in">
+        <section id="about" data-animate>
           <HeroSection :hero="hero" />
         </section>
 
@@ -93,7 +105,7 @@ onMounted(async () => {
             title="Skills"
             subtitle="Tech stack I use to ship products."
           />
-         <SkillsIconBar :skills="skills" />
+          <SkillsIconBar :skills="skills" />
         </section>
 
         <section id="experience" data-animate class="space-y-6">
@@ -104,13 +116,13 @@ onMounted(async () => {
           <ExperienceTimeline :experiences="experiences" />
         </section>
 
-        <!-- <section id="projects" data-animate class="space-y-6">
+        <section id="projects" data-animate class="space-y-6">
           <SectionTitle
             title="Projects"
             subtitle="Selected work showcasing product delivery."
           />
           <ProjectsGrid :projects="projects" />
-        </section> -->
+        </section>
 
         <section id="education" data-animate class="space-y-6">
           <SectionTitle
@@ -128,6 +140,16 @@ onMounted(async () => {
           <CertificatesGrid :certificates="certificates" />
         </section>
       </main>
+
+      <v-footer
+        class="d-flex align-center justify-center flex-wrap py-3"
+        color="surface-light"
+      >
+        <div class="text-center text-sm text-slate-600">
+          © {{ new Date().getFullYear() }} Hanna Chernihina · Full-Stack
+          JavaScript Developer · Based in France 🇫🇷
+        </div>
+      </v-footer>
     </div>
   </div>
 </template>

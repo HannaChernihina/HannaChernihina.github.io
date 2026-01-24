@@ -14,7 +14,6 @@ export function useScrollAnimation() {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
               entry.target.classList.add('visible');
-              // Удаляем элемент из наблюдения после появления
               observer.unobserve(entry.target);
             }
           });
@@ -47,7 +46,6 @@ export function useScrollAnimation() {
   };
 
   onMounted(() => {
-    // Небольшая задержка для правильной инициализации
     setTimeout(() => {
       observeElements('[data-animate]');
     }, 100);

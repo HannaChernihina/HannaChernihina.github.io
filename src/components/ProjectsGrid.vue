@@ -22,15 +22,10 @@ defineProps({
           <h3 class="text-xl font-semibold text-slate-900 transition-colors group-hover:text-primary dark:text-slate-50">
             {{ project.name }}
           </h3>
-          <a
-            v-if="project.link"
-            :href="project.link"
-            target="_blank"
-            rel="noreferrer"
-            class="relative text-sm font-semibold text-primary transition-all hover:scale-110 hover:underline after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full"
-          >
-            View
-          </a>
+
+         <div  class="relative text-sm font-semibold text-primary transition-all hover:scale-110"
+          > {{ project.date }} </div>
+
         </div>
         <p class="relative text-slate-700 dark:text-slate-300">
           {{ project.description }}
@@ -45,6 +40,19 @@ defineProps({
             {{ stack }}
           </span>
         </div>
+
+          <div class="relative flex flex-wrap gap-2">
+            <a
+            v-if="project.link"
+            :href="project.link"
+            target="_blank"
+            rel="noreferrer"
+            class="relative text-sm font-semibold text-primary transition-all hover:scale-110 hover:underline after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full"
+          >
+            View
+          </a>
+          </div>
+         
       </article>
     </template>
     <slot v-else />

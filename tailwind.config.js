@@ -11,7 +11,7 @@ export default {
         primary: {
           DEFAULT: '#f83f2e',
           dark: '#f83f2e',
-          light: '#fa7460ff',
+          light: '#ff563cff',
         },
         slate: {
           50: '#f8fafc',

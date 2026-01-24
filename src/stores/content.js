@@ -16,6 +16,7 @@ import Postman from "@/assets/skills/postman.svg?component";
 import FigmaIcon from "@/assets/skills/figma.svg?component";
 import FireIcon from "@/assets/skills/firebase.svg?component";
 import FlutterIcon from "@/assets/skills/flutter.svg?component";
+import nativeReactIcon from "@/assets/skills/native.svg?component";
 
 import AwsPdf from "@/assets/data/CC320-2025.pdf";
 import HackathonPdf from "@/assets/data/Hackathon_2025_robotique_Lille.pdf";
@@ -124,6 +125,12 @@ export const useContentStore = defineStore("content", {
         hoverClass: "group-hover:text-pink-500",
       },
       {
+        name: "React Native",
+        level: "Intermediate",
+        icon: nativeReactIcon,
+        hoverClass: "group-hover:text-blue-500",
+      },
+      {
         name: "Flutter",
         level: "Intermediate",
         icon: FlutterIcon,
@@ -191,25 +198,26 @@ export const useContentStore = defineStore("content", {
     ],
     projects: [
       {
-        name: "Neobank Dashboard",
+        name: "AMK climate",
         description:
-          "Responsive dashboard with real-time charts and secure auth flows.",
-        stack: ["Vue 3", "Pinia", "Tailwind", "Node.js"],
-        link: "#",
+          "E-commerce platform for climate control systems with real-time monitoring.",
+        stack: ["OpenCart", "js", "css", "php"],
+        date: "2021",
+        link: "https://amk-climate.com.ua",
       },
-      {
-        name: "Logistics Planner",
-        description:
-          "Route planning SPA with map overlays and offline support.",
-        stack: ["Vue 3", "Leaflet", "Vite", "Supabase"],
-        link: "#",
-      },
-      {
-        name: "E-learning Platform",
-        description: "Content delivery and quiz engine with analytics.",
-        stack: ["Nuxt", "MongoDB", "Tailwind", "Vitest"],
-        link: "#",
-      },
+     
+      // {
+      //   name: "E-learning Platform",
+      //   description: "Content delivery and quiz engine with analytics.",
+      //   stack: ["Nuxt", "MongoDB", "Tailwind", "Vitest"],
+      //   link: "#",
+      // },
+        // {
+      //   name: "E-learning Platform",
+      //   description: "Content delivery and quiz engine with analytics.",
+      //   stack: ["Nuxt", "MongoDB", "Tailwind", "Vitest"],
+      //   link: "#",
+      // },
     ],
     education: [
       {

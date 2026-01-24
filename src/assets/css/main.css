@@ -6,10 +6,21 @@
   .btn {
     @apply px-4 py-2 rounded-md font-medium transition-colors duration-200;
   }
-  
+
   .btn-primary {
     @apply bg-primary text-white hover:bg-primary-dark;
   }
+}
+
+/* Smooth scrolling for the whole page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add some padding to sections to prevent them from being hidden under the fixed header */
+section {
+  scroll-margin-top: 100px;
+  /* Adjust this value based on your header height */
 }
 
 /* Animation classes */
@@ -19,4 +30,37 @@
 
 .animate-fade-in-down {
   animation: fadeInDown 0.5s ease-out;
+}
+
+
+/* ---------- FLOAT / SOFT SWAY ANIMATION ---------- */
+
+@keyframes float-soft {
+  0% {
+    transform: translateY(0) rotate(-0.3deg);
+  }
+  25% {
+    transform: translateY(-10px) rotate(0.3deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-10px) rotate(-0.3deg);
+  }
+  100% {
+    transform: translateY(0) rotate(-0.3deg);
+  }
+}
+
+.animate-float {
+  animation: float-soft 3s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .animate-float {
+    animation: none;
+  }
 }

@@ -21,6 +21,8 @@ import AwsPdf from "@/assets/data/CC320-2025.pdf";
 import HackathonPdf from "@/assets/data/Hackathon_2025_robotique_Lille.pdf";
 import CVHaChernihina from "@/assets/data/CV_HANNA_CHERNIHINA_2026.pdf";
 
+import logoBlock  from "@/assets/images/logo.png";
+
 
 export const useContentStore = defineStore("content", {
   state: () => ({
@@ -35,7 +37,7 @@ export const useContentStore = defineStore("content", {
         label: "Check Resume",
         href: CVHaChernihina,
       },
-      profile: "../Image.png",
+      profile: logoBlock,
     },
     skills: [
       {

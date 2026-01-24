@@ -35,7 +35,7 @@ export const useContentStore = defineStore("content", {
         label: "Check Resume",
         href: CVHaChernihina,
       },
-      profile: "@/assets/Image.png",
+      profile: "../Image.png",
     },
     skills: [
       {

@@ -1,0 +1,49 @@
+{
+  "title": "Itinéraire du Camino de Porto à Saint-Jacques-de-Compostelle",
+  "slug": "itineraire-camino-porto-santiago",
+  "category": "travel",
+  "excerpt": "Découvrez un itinéraire détaillé pour le Camino de Porto à Saint-Jacques-de-Compostelle, avec des conseils sur le nombre de jours et l'équipement nécessaire.",
+  "publishedAt": "2026-03-23",
+  "seoDescription": "Un guide pratique pour votre pèlerinage de Porto à Saint-Jacques-de-Compostelle.",
+  "sections": [
+    {
+      "heading": "Présentation du Camino",
+      "paragraphs": [
+        "Le Camino de Porto est un chemin de pèlerinage populaire qui vous mène à Saint-Jacques-de-Compostelle, un lieu de grande importance spirituelle.",
+        "Ce parcours offre des paysages variés, de charmants villages et une immersion dans la culture locale."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Durée et étapes du parcours",
+      "paragraphs": [
+        "Le parcours total fait environ 240 km et peut être réalisé en 10 jours.",
+        "Voici un exemple d'itinéraire par jour :"
+      ],
+      "bullets": [
+        "Jour 1 : Porto à Vila do Conde (30 km)",
+        "Jour 2 : Vila do Conde à Esposende (20 km)",
+        "Jour 3 : Esposende à Viana do Castelo (25 km)",
+        "Jour 4 : Viana do Castelo à Ponte de Lima (30 km)",
+        "Jour 5 : Ponte de Lima à Barcelos (23 km)",
+        "Jour 6 : Barcelos à Freamunde (35 km)"
+      ]
+    },
+    {
+      "heading": "Équipement nécessaire",
+      "paragraphs": [
+        "Pour un trek réussi, il est essentiel de bien se préparer avec l'équipement adéquat.",
+        "Voici une liste d'équipements recommandés :"
+      ],
+      "bullets": [
+        "Sac à dos léger (50-60L)",
+        "Bottes de randonnée confortables et imperméables",
+        "Vêtements adaptés aux intempéries",
+        "Trousse de premiers secours",
+        "Bouteille d'eau réutilisable",
+        "Carte et guide du chemin"
+      ]
+    }
+  ],
+  "coverImage": "/blog-covers/itineraire-camino-porto-santiago.svg"
+}

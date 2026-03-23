@@ -1,0 +1,13 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="32" fill="url(#g)"/>
+  <rect x="72" y="72" width="190" height="54" rx="27" fill="rgba(255,255,255,0.15)"/>
+  <text x="167" y="106" text-anchor="middle" fill="white" font-size="26" font-family="Arial" font-weight="700">TECH</text>
+  <text x="72" y="260" fill="white" font-size="58" font-family="Arial" font-weight="700">Comprendre le Protocole MCP : Applications et Liens avec Telegram</text>
+  <text x="72" y="560" fill="rgba(255,255,255,0.85)" font-size="24" font-family="Arial">hannachernihina.github.io</text>
+</svg>

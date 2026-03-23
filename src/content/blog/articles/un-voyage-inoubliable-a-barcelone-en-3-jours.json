@@ -1,0 +1,56 @@
+{
+  "title": "Un Voyage Inoubliable à Barcelone en 3 Jours",
+  "slug": "un-voyage-inoubliable-a-barcelone-en-3-jours",
+  "category": "travel",
+  "excerpt": "Découvrez un itinéraire détaillé pour explorer Barcelone en trois jours, avec des conseils pratiques et des sites incontournables.",
+  "publishedAt": "2026-03-23",
+  "seoDescription": "Explorez Barcelone avec ce guide d'itinéraire de trois jours.",
+  "sections": [
+    {
+      "heading": "Jour 1 : Découverte de l'Art et de l'Architecture",
+      "paragraphs": [
+        "Commencez votre aventure à Barcelone par une visite de la célèbre Sagrada Familia, une œuvre maîtresse de l'architecte Antoni Gaudí. Prévoyez au moins deux heures pour apprécier les détails architecturaux et l'intérieur éblouissant de cette basilique inachevée. Réservez vos billets à l'avance pour éviter les longues files d'attente.",
+        "Après la Sagrada Familia, dirigez-vous vers le quartier gothique. Les ruelles étroites vous plongeront dans l'histoire de la ville. Ne manquez pas la cathédrale de Barcelone et le charmant Plaça del Rei. Terminez votre journée au Parc de la Ciutadella, un magnifique parc où vous pourrez vous détendre et profiter d'un pique-nique."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/un-voyage-inoubliable-a-barcelone-en-3-jours-photo1.jpg",
+          "alt": "photo1",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Jour 2 : Culture et Nature au Parc Güell",
+      "paragraphs": [
+        "Le deuxième jour, visitez le Parc Güell, un autre chef-d'œuvre de Gaudí. Le parc est rempli de mosaïques colorées et de structures uniques. Prenez le temps de vous promener et de capturer des photos spectaculaires des paysages urbains. N'oubliez pas de réserver vos billets à l'avance, car l'accès est limité.",
+        "Après avoir exploré le parc, dirigez-vous vers le quartier de Gràcia pour déjeuner dans l'un des nombreux restaurants locaux. Gràcia est réputé pour ses petites places animées et ses boutiques artisanales. Passez l'après-midi à flâner dans les ruelles, puis terminez la journée par une visite à la Casa Batlló, un autre chef-d'œuvre de Gaudí."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/un-voyage-inoubliable-a-barcelone-en-3-jours-photo2.jpg",
+          "alt": "Parc Guel",
+          "caption": "Parc Guel"
+        }
+      ]
+    },
+    {
+      "heading": "Jour 3 : Histoire et Vie Nocturne",
+      "paragraphs": [
+        "Pour votre dernier jour, commencez par une visite de l'Arc de Triomphe. Ce monument emblématique est un excellent point de départ pour explorer le parc de la Ciutadella, qui est à proximité. Profitez d'une promenade matinale dans le parc, où vous pourrez voir le zoo de Barcelone et de belles fontaines.",
+        "Dans l'après-midi, explorez le quartier de l'Eixample, où vous trouverez des boutiques de créateurs et des cafés charmants. En soirée, plongez dans la vie nocturne de Barcelone. Les quartiers de El Born et de Barceloneta regorgent de bars et de restaurants. Faites une pause pour déguster des tapas et des cocktails, et terminez votre voyage par une balade le long de la plage."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/un-voyage-inoubliable-a-barcelone-en-3-jours-photo4.jpg",
+          "alt": "L’arc de triomphe",
+          "caption": "L’arc de triomphe"
+        }
+      ]
+    }
+  ],
+  "coverImage": "/blog-images/un-voyage-inoubliable-a-barcelone-en-3-jours-photo1.jpg"
+}

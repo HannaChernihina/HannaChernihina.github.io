@@ -8,14 +8,6 @@
     "coverImage": "/blog-covers/vue3-api-composition.svg"
   },
   {
-    "slug": "unlocking-the-power-of-vue-3-composition-api",
-    "title": "Unlocking the Power of Vue 3: A Deep Dive into the Composition API",
-    "excerpt": "Discover how Vue 3's Composition API revolutionizes component logic and enhances reusability in your applications.",
-    "category": "tech",
-    "publishedAt": "2026-03-23",
-    "coverImage": "/blog-covers/unlocking-the-power-of-vue-3-composition-api.svg"
-  },
-  {
     "slug": "comprendre-le-protocole-mcp-applications-et-liens-avec-telegram",
     "title": "Comprendre le Protocole MCP : Applications et Liens avec Telegram",
     "excerpt": "Découvrez le protocole MCP, ses applications et comment il peut être intégré avec des projets comme Telegram.",

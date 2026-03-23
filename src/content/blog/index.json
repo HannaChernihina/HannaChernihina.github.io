@@ -1,0 +1,19 @@
+[
+  {
+    "slug": "comprendre-le-protocole-mcp-data-gouv",
+    "title": "Comprendre le Protocole MCP et son Application dans DataGouv",
+    "excerpt": "Explorez le protocole MCP et découvrez son expérimentation autour d'un serveur pour améliorer les services de DataGouv.",
+    "category": "tech",
+    "publishedAt": "2026-03-23",
+    "coverImage": "/blog-covers/comprendre-le-protocole-mcp-data-gouv.svg"
+  },
+  {
+    "title": "Test Article",
+    "slug": "test-article",
+    "category": "tech",
+    "excerpt": "This is a test article.",
+    "publishedAt": "2025-10-15",
+    "coverImage": "/blog-images/tech-default.jpg",
+    "content": "# Test Article\n\nThis is a test article."
+  }
+]

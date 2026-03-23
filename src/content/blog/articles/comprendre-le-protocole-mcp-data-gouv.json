@@ -1,0 +1,46 @@
+{
+  "title": "Comprendre le Protocole MCP et son Application dans DataGouv",
+  "slug": "comprendre-le-protocole-mcp-data-gouv",
+  "category": "tech",
+  "excerpt": "Explorez le protocole MCP et découvrez son expérimentation autour d'un serveur pour améliorer les services de DataGouv.",
+  "publishedAt": "2026-03-23",
+  "seoDescription": "Un aperçu du protocole MCP et de son application dans l'expérimentation de DataGouv.",
+  "sections": [
+    {
+      "heading": "Qu'est-ce que le Protocole MCP ?",
+      "paragraphs": [
+        "Le protocole MCP, ou Model Context Protocol, est un standard de communication utilisé pour la gestion de modèles contextuels.",
+        "Il permet une interaction fluide entre différentes applications et services en utilisant des contextes de données partagés."
+      ],
+      "bullets": [
+        "Facilite l'intégration de systèmes disparates.",
+        "Optimise la gestion des données contextualisées.",
+        "Améliore la réactivité des applications."
+      ]
+    },
+    {
+      "heading": "Expérimentation autour d'un serveur MCP pour DataGouv",
+      "paragraphs": [
+        "DataGouv a lancé une expérimentation pour tester l'intégration du protocole MCP dans son infrastructure.",
+        "Cette phase d'expérimentation vise à évaluer l'efficacité du protocole pour la gestion des données publiques."
+      ],
+      "bullets": [
+        "Tests de performance sur la récupération de données.",
+        "Évaluation de la sécurité et de la confidentialité des données.",
+        "Feedback des utilisateurs sur l'interface et l'accessibilité."
+      ]
+    },
+    {
+      "heading": "Avantages et défis du Protocole MCP",
+      "paragraphs": [
+        "Le protocole MCP présente plusieurs avantages, notamment une meilleure interopérabilité des systèmes.",
+        "Cependant, des défis subsistent, tels que la standardisation et l'adoption par tous les acteurs concernés."
+      ],
+      "bullets": [
+        "Avantages : interopérabilité, flexibilité, optimisation des ressources.",
+        "Défis : besoin d'une formation adéquate, mise à jour des systèmes existants."
+      ]
+    }
+  ],
+  "coverImage": "/blog-covers/comprendre-le-protocole-mcp-data-gouv.svg"
+}

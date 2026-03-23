@@ -1,0 +1,91 @@
+{
+  "title": "Cinq Jours Inoubliables à Barcelone : Culture, Gastronomie et Détente",
+  "slug": "cinq-jours-inoubliables-a-barcelone",
+  "category": "travel",
+  "excerpt": "Explorez Barcelone en cinq jours, alliant culture, gastronomie et découvertes inoubliables.",
+  "publishedAt": "2026-03-23",
+  "seoDescription": "Découvrez un itinéraire de cinq jours à Barcelone mêlant culture et gastronomie.",
+  "sections": [
+    {
+      "heading": "Jour 1 : Plongée dans l'Art et l'Architecture",
+      "paragraphs": [
+        "Commencez votre aventure à Barcelone par une journée libre dédiée à l'exploration des merveilles architecturales de la ville. Visitez la Casa Milà, mieux connue sous le nom de La Pedrera, un chef-d'œuvre d'Antoni Gaudí. Poursuivez avec la Casa Batlló, un autre exemple emblématique du style moderniste de Gaudí. Ne manquez pas la Casa de les Punxes et la Casa Vicens, qui montrent la diversité du travail de cet architecte. La journée se termine par une visite au Palais de la Musique Catalane, un joyau de l'architecture moderniste."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/cinq-jours-inoubliables-a-barcelone-photo6.jpg",
+          "alt": "photo6",
+          "caption": ""
+        },
+        {
+          "src": "/blog-images/cinq-jours-inoubliables-a-barcelone-photo7.jpg",
+          "alt": "photo7",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Jour 1 : Dégustations Culinaires",
+      "paragraphs": [
+        "Après avoir exploré l'architecture, il est temps de savourer les délices culinaires de Barcelone. Ne manquez pas de goûter au Mantecado de Estepa et aux Polvorones, des douceurs traditionnelles. Pour un véritable goût local, essayez les tapas dans l'un des nombreux bars de la ville. Les anchois, en particulier, sont un must ; ils sont souvent servis avec des olives ou des légumes marinés. Pensez également à rapporter chez vous des douceurs comme le Turrón avec des pistaches."
+      ],
+      "bullets": [
+        "Dégustez des tapas dans les bars locaux.",
+        "Achetez des spécialités comme le Turrón."
+      ],
+      "images": [
+        {
+          "src": "/blog-images/cinq-jours-inoubliables-a-barcelone-photo8.jpg",
+          "alt": "photo8",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Jour 2 : Conférences et Découvertes",
+      "paragraphs": [
+        "Le deuxième jour est consacré aux conférences. Profitez des sessions toute la journée, mais gardez un peu de temps pour explorer les environs. Barcelone est riche en culture et il y a toujours quelque chose à découvrir entre les sessions. Profitez-en pour visiter des lieux moins connus ou simplement prendre un café dans un café local pour vous imprégner de l'ambiance."
+      ],
+      "bullets": [],
+      "images": []
+    },
+    {
+      "heading": "Jour 3 : Sagrada Familia et Temps Libre",
+      "paragraphs": [
+        "Le troisième jour, réveillez-vous tôt pour visiter la Sagrada Familia à 12h15. Ce chef-d'œuvre inachevé de Gaudí est un incontournable. Prenez le temps d'admirer l'intérieur spectaculaire et les détails architecturaux. L'après-midi est libre pour d'autres découvertes ou pour assister à d'autres conférences. Le soir, profitez de la gastronomie locale dans un restaurant traditionnel."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/cinq-jours-inoubliables-a-barcelone-photo9.jpg",
+          "alt": "photo9",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Jour 4 : Une Excursion à Montserrat",
+      "paragraphs": [
+        "Le quatrième jour, envisagez une excursion à Montserrat, une montagne emblématique à proximité de Barcelone. Célèbre pour son monastère et ses vues à couper le souffle, Montserrat offre une évasion parfaite de l'agitation de la ville. Vous pouvez y faire de la randonnée, visiter le monastère et profiter d'une atmosphère paisible."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/cinq-jours-inoubliables-a-barcelone-photo10.jpg",
+          "alt": "photo10",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Jour 5 : Dernières Heures à Barcelone",
+      "paragraphs": [
+        "Le dernier jour est dédié à la conférence AWC26, qui se terminera à 18h. Avant de partir, assurez-vous de vous promener une dernière fois dans la ville, peut-être pour acheter des souvenirs ou savourer un dernier repas catalan. Barcelone est une ville qui laisse une empreinte durable, et chaque moment compte."
+      ],
+      "bullets": [],
+      "images": []
+    }
+  ],
+  "coverImage": "/blog-images/cinq-jours-inoubliables-a-barcelone-photo6.jpg"
+}

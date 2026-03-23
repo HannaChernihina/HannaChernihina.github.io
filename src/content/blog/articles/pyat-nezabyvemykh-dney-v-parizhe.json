@@ -1,0 +1,90 @@
+{
+  "title": "Пять незабываемых дней в Париже: маршрут с 7 по 11 марта",
+  "slug": "pyat-nezabyvemykh-dney-v-parizhe",
+  "category": "travel",
+  "excerpt": "Исследуйте Париж в течение 5 дней с уникальным маршрутом, включая празднование 8 марта.",
+  "publishedAt": "2026-03-23",
+  "seoDescription": "Планируйте свой идеальный маршрут по Парижу на 5 дней.",
+  "sections": [
+    {
+      "heading": "День 1: Прибытие и первое знакомство с Парижем",
+      "paragraphs": [
+        "Ваше приключение начинается с прибытия в Париж 7 марта. После заселения в отель, отправляйтесь на прогулку по набережной Сены. Познакомьтесь с атмосферой города, прогуливаясь мимо исторических зданий. Вечером насладитесь ужином в одном из уютных кафе, например, Café Anco недалеко от Bercy, где вы сможете попробовать традиционные французские блюда."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/pyat-nezabyvemykh-dney-v-parizhe-photo7.jpg",
+          "alt": "Café anco pas loin de Bercy",
+          "caption": "Café anco pas loin de Bercy"
+        }
+      ]
+    },
+    {
+      "heading": "День 2: Искусство и культура",
+      "paragraphs": [
+        "8 марта, Международный женский день, идеально подходит для посещения музеев. Начните утро с Лувра, где вы сможете полюбоваться шедеврами, такими как 'Мона Лиза'. Далее направляйтесь к Нотр-Дам-де-Пари, чтобы насладиться его готической архитектурой. Вечером посмотрите спектакль в Мулен Руж, чтобы завершить день в неформальной обстановке, наслаждаясь атмосферой кабаре."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/pyat-nezabyvemykh-dney-v-parizhe-photo3.jpg",
+          "alt": "Nôtres Dames de Paris",
+          "caption": "Nôtres Dames de Paris"
+        },
+        {
+          "src": "/blog-images/pyat-nezabyvemykh-dney-v-parizhe-photo11.jpg",
+          "alt": "Moulin rouge",
+          "caption": "Moulin rouge"
+        }
+      ]
+    },
+    {
+      "heading": "День 3: Королевский Versailles",
+      "paragraphs": [
+        "На третий день отправляйтесь в Версаль. Дворец Версаль — это не только архитектурное чудо, но и символ французской истории. Прогуляйтесь по великолепным садам и не забудьте заглянуть внутрь дворца, чтобы увидеть роскошные залы. Рекомендуется оставить на это время целый день, чтобы полностью насладиться атмосферой и красотой этого места."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/pyat-nezabyvemykh-dney-v-parizhe-photo2.jpg",
+          "alt": "Château de Versailles",
+          "caption": "Château de Versailles"
+        },
+        {
+          "src": "/blog-images/pyat-nezabyvemykh-dney-v-parizhe-photo6.jpg",
+          "alt": "Versailles",
+          "caption": "Versailles"
+        }
+      ]
+    },
+    {
+      "heading": "День 4: Высота и панорамы Парижа",
+      "paragraphs": [
+        "9 марта — день, посвященный панорамным видам. Начните с подъема на Эйфелеву башню, откуда открывается захватывающий вид на город. Затем отправляйтесь в Галерею Лафайет, где вы сможете насладиться не только шопингом, но и панорамным видом с крыши. Это идеальное место для фотографий и отдыха после насыщенного дня."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/pyat-nezabyvemykh-dney-v-parizhe-photo4.jpg",
+          "alt": "Tour Eiffel",
+          "caption": "Tour Eiffel"
+        },
+        {
+          "src": "/blog-images/pyat-nezabyvemykh-dney-v-parizhe-photo5.jpg",
+          "alt": "Vue panaramique depuis gallérie Lafayette",
+          "caption": "Vue panaramique depuis gallérie Lafayette"
+        }
+      ]
+    },
+    {
+      "heading": "День 5: Завершение путешествия",
+      "paragraphs": [
+        "В последний день, 11 марта, проведите утро в Montmartre, наслаждаясь атмосферой этого художественного района. Посетите базилику Сакре-Кёр и полюбуйтесь видами, которые открываются с её вершины. После этого, не забудьте остановиться в одном из местных кафе, чтобы попробовать круассаны и кофе, прежде чем отправиться в аэропорт."
+      ],
+      "bullets": [],
+      "images": []
+    }
+  ],
+  "coverImage": "/blog-images/pyat-nezabyvemykh-dney-v-parizhe-photo2.jpg"
+}

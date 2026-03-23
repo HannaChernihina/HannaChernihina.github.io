@@ -70,12 +70,12 @@ function formatDate(date) {
   margin: 0 auto;
 }
 
-.meta {
+/* .meta {
   color: #6b7280;
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 0.04em;
-}
+} */
 
 .excerpt {
   font-size: 20px;

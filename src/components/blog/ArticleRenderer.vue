@@ -14,6 +14,7 @@
         {{ paragraph }}
       </p>
 
+      <!-- IMAGES -->
       <div
         v-if="section.images && section.images.length"
         class="section-images"
@@ -27,6 +28,7 @@
             :src="image.src"
             :alt="image.alt || section.heading"
             class="section-image"
+            @click="openImage(image.src)"
           />
 
           <figcaption v-if="image.caption">
@@ -41,16 +43,48 @@
         </li>
       </ul>
     </section>
+
+    <!-- MODAL -->
+    <div
+      v-if="selectedImage"
+      class="image-modal"
+      @click="closeImage"
+    >
+      <button
+        class="close-button"
+        @click.stop="closeImage"
+      >
+        ×
+      </button>
+
+      <img
+        :src="selectedImage"
+        class="modal-image"
+        @click.stop
+      />
+    </div>
   </section>
 </template>
 
 <script setup>
+import { ref } from 'vue'
+
 defineProps({
   article: {
     type: Object,
     required: true,
   },
 })
+
+const selectedImage = ref(null)
+
+function openImage(src) {
+  selectedImage.value = src
+}
+
+function closeImage() {
+  selectedImage.value = null
+}
 </script>
 
 <style scoped>
@@ -66,16 +100,16 @@ defineProps({
   margin-bottom: 14px;
   font-size: 28px;
   line-height: 1.3;
-  color: #111827;
 }
 
 .section p {
   line-height: 1.8;
   margin-bottom: 14px;
-  color: #1f2937;
   font-size: 17px;
+  color: #1f2937;
 }
 
+/* IMAGES */
 .section-images {
   margin: 24px 0 16px;
   display: grid;
@@ -88,27 +122,60 @@ defineProps({
 
 .section-image {
   width: 100%;
-  display: block;
-  border-radius: 16px;
+  max-height: 420px;
   object-fit: cover;
+  border-radius: 16px;
+  cursor: zoom-in;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
 .article-figure figcaption {
   margin-top: 10px;
   font-size: 14px;
-  line-height: 1.5;
   color: #6b7280;
 }
 
+/* BULLETS */
 .bullets {
   margin: 16px 0 0 20px;
-  padding: 0;
 }
 
 .bullets li {
   line-height: 1.7;
   margin-bottom: 10px;
-  color: #1f2937;
+}
+
+/* MODAL */
+.image-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(17, 24, 39, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 1000;
+}
+
+.modal-image {
+  max-width: min(1100px, 100%);
+  max-height: 90vh;
+  border-radius: 16px;
+  object-fit: contain;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
 }
 </style>

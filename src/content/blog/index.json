@@ -1,5 +1,13 @@
 [
   {
+    "slug": "vue3-api-composition",
+    "title": "Погружение в Vue 3 и API Composition: Путь к Более Чистому Коду",
+    "excerpt": "Изучите, как API composition в Vue 3 трансформирует разработку, позволяя создавать более структурированные и гибкие приложения.",
+    "category": "tech",
+    "publishedAt": "2026-03-23",
+    "coverImage": "/blog-covers/vue3-api-composition.svg"
+  },
+  {
     "slug": "comprendre-vue3-api-composition",
     "title": "Comprendre Vue 3 et l'API de Composition",
     "excerpt": "Découvrez comment l'API de Composition de Vue 3 transforme le développement d'applications web avec des exemples pratiques et des conseils utiles.",

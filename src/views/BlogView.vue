@@ -1,151 +1,223 @@
 <template>
   <main class="blog-page">
-    <header class="hero">
-      <h1>Blog</h1>
-      <p>Notes, articles et guides classés par catégorie.</p>
-    </header>
+    <div class="container">
+      <h1 class="page-title">Blog</h1>
 
-    <div class="tabs">
-      <button
-        :class="{ active: activeTab === 'tech' }"
-        @click="activeTab = 'tech'"
-      >
-        Tech
-      </button>
+      <!-- FILTER -->
+      <div class="filters">
+        <button
+          :class="['filter-btn', { active: selectedFilter === null }]"
+          @click="toggleFilter(null)"
+        >
+          Tous
+        </button>
 
-      <button
-        :class="{ active: activeTab === 'travel' }"
-        @click="activeTab = 'travel'"
-      >
-        Travel
-      </button>
-    </div>
+        <button
+          :class="['filter-btn', { active: selectedFilter === 'tech' }]"
+          @click="toggleFilter('tech')"
+        >
+          Tech
+        </button>
 
-    <section class="grid">
-      <article v-for="post in filteredPosts" :key="post.slug" class="card">
-        <img :src="post.coverImage" :alt="post.title" class="cover" />
+        <button
+          :class="['filter-btn', { active: selectedFilter === 'travel' }]"
+          @click="toggleFilter('travel')"
+        >
+          Travel
+        </button>
+      </div>
 
-        <div class="card-body">
-          <div class="meta">
-            <span class="badge">{{ post.category }}</span>
-            <span>{{ formatDate(post.publishedAt) }}</span>
+      <!-- GRID -->
+      <div class="grid">
+        <RouterLink
+          v-for="article in filteredArticles"
+          :key="article.slug"
+          :to="`/blog/${article.slug}`"
+          class="card"
+        >
+          <div class="image-wrapper">
+            <img :src="article.coverImage" :alt="article.title" class="cover" />
           </div>
 
-          <h2>{{ post.title }}</h2>
-          <p>{{ post.excerpt }}</p>
+          <div class="card-content">
+            <p class="meta">
+              {{ article.category }} • {{ formatDate(article.publishedAt) }}
+            </p>
 
-          <RouterLink :to="`/blog/${post.slug}`" class="link">
-            Lire l’article
-          </RouterLink>
-        </div>
-      </article>
-    </section>
+            <h2 class="title">{{ article.title }}</h2>
 
-    <p v-if="filteredPosts.length === 0" class="empty">
-      Aucun article dans cette catégorie pour le moment.
-    </p>
+            <p class="excerpt">{{ article.excerpt }}</p>
+
+            <span class="cta">Lire l’article →</span>
+          </div>
+        </RouterLink>
+      </div>
+    </div>
   </main>
 </template>
-
 <script setup>
 import { computed, ref } from 'vue'
-import posts from '../content/blog/index.json'
 
-const activeTab = ref('tech')
+const selectedFilter = ref(null)
 
-const sortedPosts = computed(() =>
-  [...posts].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
-)
+const modules = import.meta.glob('../content/blog/index.json', {
+  eager: true,
+  import: 'default',
+})
 
-const filteredPosts = computed(() =>
-  sortedPosts.value.filter((post) => post.category === activeTab.value)
-)
+const articles = computed(() => {
+  return Object.values(modules)[0] || []
+})
+
+const filteredArticles = computed(() => {
+  if (!selectedFilter.value) return articles.value
+
+  return articles.value.filter(
+    (a) => a.category === selectedFilter.value
+  )
+})
+
+function toggleFilter(filter) {
+  if (selectedFilter.value === filter) {
+    selectedFilter.value = null
+  } else {
+    selectedFilter.value = filter
+  }
+}
 
 function formatDate(date) {
   return new Date(date).toLocaleDateString('fr-FR', {
     year: 'numeric',
-    month: 'long',
+    month: 'short',
     day: 'numeric',
   })
 }
 </script>
 
 <style scoped>
-.blog-page {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 32px 20px 64px;
-}
-
-.hero {
-  margin-bottom: 24px;
-}
-
-.tabs {
+/* FILTER BAR */
+.filters {
   display: flex;
   gap: 12px;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 
-.tabs button {
-  border: 0;
-  padding: 10px 16px;
+.filter-btn {
+  padding: 8px 16px;
   border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background: white;
   cursor: pointer;
-  background: #e5e7eb;
+  font-size: 14px;
+  color: #374151;
+  transition: all 0.2s ease;
 }
 
-.tabs button.active {
+.filter-btn:hover {
+  background: #f3f4f6;
+}
+
+/* ACTIVE */
+.filter-btn.active {
   background: #111827;
   color: white;
+  border-color: #111827;
 }
 
+.blog-page {
+  background: #f9fafb;
+  min-height: 100vh;
+  padding: 40px 20px 80px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* TITLE */
+.page-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: #111827;
+}
+
+/* GRID */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
 }
 
+/* CARD */
 .card {
-  overflow: hidden;
-  border-radius: 18px;
+  display: block;
   background: white;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  border-radius: 18px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.25s ease;
+}
+
+/* HOVER */
+.card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* IMAGE */
+.image-wrapper {
+  overflow: hidden;
 }
 
 .cover {
   width: 100%;
   height: 180px;
   object-fit: cover;
-  display: block;
+  transition: transform 0.3s ease;
 }
 
-.card-body {
+.card:hover .cover {
+  transform: scale(1.08);
+}
+
+/* CONTENT */
+.card-content {
   padding: 18px;
 }
 
+/* META */
 .meta {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  font-size: 13px;
-  margin-bottom: 10px;
+  font-size: 12px;
   color: #6b7280;
-}
-
-.badge {
+  margin-bottom: 8px;
   text-transform: uppercase;
-  font-weight: 700;
 }
 
-.link {
-  display: inline-block;
-  margin-top: 12px;
-  font-weight: 700;
+/* TITLE */
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #111827;
 }
 
-.empty {
-  margin-top: 24px;
-  color: #6b7280;
+/* EXCERPT */
+.excerpt {
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+/* CTA */
+.cta {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2563eb;
 }
 </style>

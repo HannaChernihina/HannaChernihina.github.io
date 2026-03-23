@@ -1,0 +1,47 @@
+{
+  "title": "Itinéraire pour le Jour du Roi à Amsterdam : 25-27 avril",
+  "slug": "itineraire-jour-du-roi-amsterdam",
+  "category": "travel",
+  "excerpt": "Découvrez Amsterdam pendant le Jour du Roi avec cet itinéraire de 3 jours, incluant des festivités, des attractions et des conseils pratiques.",
+  "publishedAt": "2026-03-23",
+  "seoDescription": "Visitez Amsterdam lors du Jour du Roi avec cet itinéraire complet.",
+  "sections": [
+    {
+      "heading": "Jour 1 : Arrivée et Festival du Jour du Roi",
+      "paragraphs": [
+        "Arrivez à Amsterdam et installez-vous dans votre hébergement.",
+        "Participez aux festivités du Jour du Roi, qui se déroulent dans toute la ville."
+      ],
+      "bullets": [
+        "Visitez le marché aux puces à Albert Cuypmarkt.",
+        "Profitez de la musique live et des spectacles dans les rues.",
+        "Dégustez des spécialités locales comme les stroopwafels."
+      ]
+    },
+    {
+      "heading": "Jour 2 : Exploration des Canaux et Musées",
+      "paragraphs": [
+        "Commencez votre journée par une promenade le long des canaux d'Amsterdam.",
+        "Visitez le Rijksmuseum pour admirer l'art néerlandais."
+      ],
+      "bullets": [
+        "Faites une croisière sur les canaux.",
+        "Déjeunez dans un café près du musée.",
+        "Découvrez le musée Van Gogh l'après-midi."
+      ]
+    },
+    {
+      "heading": "Jour 3 : Découverte des Quartiers et Départ",
+      "paragraphs": [
+        "Explorez les quartiers de Jordaan et de De Pijp.",
+        "Visitez la maison d'Anne Frank si possible."
+      ],
+      "bullets": [
+        "Faites du shopping dans les boutiques locales.",
+        "Détendez-vous dans le Vondelpark.",
+        "Préparez-vous pour votre voyage de retour."
+      ]
+    }
+  ],
+  "coverImage": "/blog-covers/itineraire-jour-du-roi-amsterdam.svg"
+}

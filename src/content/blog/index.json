@@ -1,5 +1,13 @@
 [
   {
+    "slug": "itineraire-jour-du-roi-amsterdam",
+    "title": "Itinéraire pour le Jour du Roi à Amsterdam : 25-27 avril",
+    "excerpt": "Découvrez Amsterdam pendant le Jour du Roi avec cet itinéraire de 3 jours, incluant des festivités, des attractions et des conseils pratiques.",
+    "category": "travel",
+    "publishedAt": "2026-03-23",
+    "coverImage": "/blog-covers/itineraire-jour-du-roi-amsterdam.svg"
+  },
+  {
     "slug": "itineraire-5-jours-barcelone",
     "title": "Itinéraire de 5 jours à Barcelone : Découvrez les incontournables",
     "excerpt": "Un itinéraire détaillé pour explorer les merveilles de Barcelone en cinq jours, des sites emblématiques aux expériences locales.",
@@ -14,14 +22,5 @@
     "category": "tech",
     "publishedAt": "2026-03-23",
     "coverImage": "/blog-covers/comprendre-le-protocole-mcp-data-gouv.svg"
-  },
-  {
-    "title": "Test Article",
-    "slug": "test-article",
-    "category": "tech",
-    "excerpt": "This is a test article.",
-    "publishedAt": "2025-10-15",
-    "coverImage": "/blog-images/tech-default.jpg",
-    "content": "# Test Article\n\nThis is a test article."
   }
 ]

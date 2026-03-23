@@ -1,5 +1,13 @@
 [
   {
+    "slug": "comprendre-vue3-api-composition",
+    "title": "Comprendre Vue 3 et l'API de Composition",
+    "excerpt": "Découvrez comment l'API de Composition de Vue 3 transforme le développement d'applications web avec des exemples pratiques et des conseils utiles.",
+    "category": "tech",
+    "publishedAt": "2026-03-23",
+    "coverImage": "/blog-covers/comprendre-vue3-api-composition.svg"
+  },
+  {
     "slug": "unlocking-the-power-of-vue-3-composition-api",
     "title": "Unlocking the Power of Vue 3: A Deep Dive into the Composition API",
     "excerpt": "Discover how Vue 3's Composition API revolutionizes component logic and enhances reusability in your applications.",

@@ -1,27 +1,44 @@
 <template>
   <main v-if="article" class="article-page">
     <div class="article-container">
-      <!-- META -->
       <p class="meta">
         {{ article.category }} • {{ formatDate(article.publishedAt) }}
       </p>
 
-      <!-- TITLE -->
       <h1 class="title">{{ article.title }}</h1>
 
-      <!-- EXCERPT -->
       <p class="excerpt">{{ article.excerpt }}</p>
 
-      <!-- IMAGE -->
       <img
         v-if="article.coverImage"
         :src="article.coverImage"
         :alt="article.title"
         class="hero-image"
+        @click="openImage(article.coverImage)"
       />
 
-      <!-- CONTENT -->
       <ArticleRenderer :article="article" />
+    </div>
+
+    <div
+      v-if="selectedImage"
+      class="image-modal"
+      @click="closeImage"
+    >
+      <button
+        class="close-button"
+        @click.stop="closeImage"
+        aria-label="Close image"
+      >
+        ×
+      </button>
+
+      <img
+        :src="selectedImage"
+        alt="Full size preview"
+        class="modal-image"
+        @click.stop
+      />
     </div>
   </main>
 
@@ -36,11 +53,12 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import ArticleRenderer from '../components/blog/ArticleRenderer.vue'
 
 const route = useRoute()
+const selectedImage = ref(null)
 
 const modules = import.meta.glob('../content/blog/articles/*.json', {
   eager: true,
@@ -60,6 +78,14 @@ function formatDate(date) {
     day: 'numeric',
   })
 }
+
+function openImage(src) {
+  selectedImage.value = src
+}
+
+function closeImage() {
+  selectedImage.value = null
+}
 </script>
 
 <style scoped>
@@ -75,7 +101,6 @@ function formatDate(date) {
   margin: 0 auto;
 }
 
-/* META */
 .meta {
   font-size: 13px;
   color: #6b7280;
@@ -84,7 +109,6 @@ function formatDate(date) {
   margin-bottom: 16px;
 }
 
-/* TITLE */
 .title {
   font-size: 42px;
   line-height: 1.2;
@@ -92,7 +116,6 @@ function formatDate(date) {
   margin-bottom: 16px;
 }
 
-/* EXCERPT */
 .excerpt {
   font-size: 20px;
   line-height: 1.6;
@@ -100,15 +123,17 @@ function formatDate(date) {
   margin-bottom: 28px;
 }
 
-/* IMAGE */
 .hero-image {
   width: 100%;
+  max-height: 420px;
+  display: block;
   border-radius: 16px;
   margin-bottom: 32px;
   object-fit: cover;
+  cursor: zoom-in;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
-/* LINK */
 .back-link {
   display: inline-block;
   margin-top: 20px;
@@ -118,5 +143,39 @@ function formatDate(date) {
 
 .back-link:hover {
   text-decoration: underline;
+}
+
+.image-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(17, 24, 39, 0.88);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 1000;
+}
+
+.modal-image {
+  max-width: min(1100px, 100%);
+  max-height: 90vh;
+  border-radius: 16px;
+  object-fit: contain;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  color: white;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
 }
 </style>

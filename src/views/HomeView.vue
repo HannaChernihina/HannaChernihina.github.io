@@ -77,11 +77,17 @@ onMounted(async () => {
           >
             Education
           </a>
-          <a
+          <!-- <a
             class="relative transition-all hover:text-primary hover:scale-105 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full"
             href="#certificates"
           >
             Certificates
+          </a> -->
+          <a
+            class="relative transition-all hover:text-primary hover:scale-105 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary after:transition-all hover:after:w-full"
+            href="/#/blog"
+          >
+            Blog
           </a>
           <a
             class="group rounded-full border border-primary px-4 py-2 text-primary transition-all hover:scale-105 hover:bg-primary hover:text-slate-950 hover:shadow-lg hover:shadow-primary/50 dark:hover:text-slate-950"

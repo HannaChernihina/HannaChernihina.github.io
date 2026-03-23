@@ -1,5 +1,13 @@
 [
   {
+    "slug": "itineraire-5-jours-barcelone",
+    "title": "Itinéraire de 5 jours à Barcelone : Découvrez les incontournables",
+    "excerpt": "Un itinéraire détaillé pour explorer les merveilles de Barcelone en cinq jours, des sites emblématiques aux expériences locales.",
+    "category": "travel",
+    "publishedAt": "2026-03-23",
+    "coverImage": "/blog-covers/itineraire-5-jours-barcelone.svg"
+  },
+  {
     "slug": "comprendre-le-protocole-mcp-data-gouv",
     "title": "Comprendre le Protocole MCP et son Application dans DataGouv",
     "excerpt": "Explorez le protocole MCP et découvrez son expérimentation autour d'un serveur pour améliorer les services de DataGouv.",

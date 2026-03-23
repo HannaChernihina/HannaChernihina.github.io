@@ -1,0 +1,71 @@
+{
+  "title": "Itinéraire de 5 jours à Barcelone : Découvrez les incontournables",
+  "slug": "itineraire-5-jours-barcelone",
+  "category": "travel",
+  "excerpt": "Un itinéraire détaillé pour explorer les merveilles de Barcelone en cinq jours, des sites emblématiques aux expériences locales.",
+  "publishedAt": "2026-03-23",
+  "seoDescription": "Découvrez les incontournables de Barcelone en 5 jours.",
+  "sections": [
+    {
+      "heading": "Jour 1 : Découverte de l'architecture de Gaudí",
+      "paragraphs": [
+        "Commencez votre voyage par la célèbre Sagrada Família, un chef-d'œuvre inachevé de Gaudí.",
+        "Poursuivez avec le parc Güell, où vous pourrez admirer des mosaïques colorées et une vue panoramique sur la ville."
+      ],
+      "bullets": [
+        "Visite de la Sagrada Família (réservation recommandée)",
+        "Promenade dans le parc Güell",
+        "Déjeuner au café du parc"
+      ]
+    },
+    {
+      "heading": "Jour 2 : Quartier Gothique et Las Ramblas",
+      "paragraphs": [
+        "Explorez le quartier gothique, avec ses ruelles étroites et ses bâtiments médiévaux.",
+        "Visitez la cathédrale de Barcelone avant de flâner sur les célèbres Ramblas."
+      ],
+      "bullets": [
+        "Cathédrale de Barcelone",
+        "Visite du musée d'histoire de Barcelone",
+        "Dîner dans un restaurant local"
+      ]
+    },
+    {
+      "heading": "Jour 3 : Art et culture au musée Picasso",
+      "paragraphs": [
+        "Consacrez votre troisième jour à l'art avec une visite au musée Picasso.",
+        "Ne manquez pas le charmant quartier de El Born pour ses boutiques et cafés."
+      ],
+      "bullets": [
+        "Musée Picasso (réservation recommandée)",
+        "Déjeuner dans le quartier de El Born",
+        "Promenade au parc de la Ciutadella"
+      ]
+    },
+    {
+      "heading": "Jour 4 : Plages et détente",
+      "paragraphs": [
+        "Passez une journée à la plage de Barceloneta pour vous détendre au soleil.",
+        "Profitez de fruits de mer frais dans un des restaurants de plage."
+      ],
+      "bullets": [
+        "Matinée à la plage de Barceloneta",
+        "Déjeuner de fruits de mer",
+        "Promenade le long de la promenade"
+      ]
+    },
+    {
+      "heading": "Jour 5 : Montjuïc et vue panoramique",
+      "paragraphs": [
+        "Terminez votre voyage par une visite au château de Montjuïc pour une vue imprenable sur la ville.",
+        "Explorez les jardins et le musée national d'art de Catalogne."
+      ],
+      "bullets": [
+        "Visite du château de Montjuïc",
+        "Découverte des jardins",
+        "Dîner avec vue sur la ville"
+      ]
+    }
+  ],
+  "coverImage": "/blog-covers/itineraire-5-jours-barcelone.svg"
+}

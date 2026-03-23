@@ -1,0 +1,41 @@
+{
+  "title": "Exploration de Barcelone en 3 Jours",
+  "slug": "exploration-de-barcelone-en-3-jours",
+  "category": "travel",
+  "excerpt": "Découvrez comment profiter au maximum de Barcelone en trois jours, des incontournables aux conseils pratiques.",
+  "publishedAt": "2026-03-23",
+  "seoDescription": "Un guide pratique pour visiter Barcelone en trois jours.",
+  "sections": [
+    {
+      "heading": "Jour 1 : Les Incontournables",
+      "paragraphs": [
+        "Commencez votre aventure à Barcelone par une visite de la célèbre Sagrada Familia. Ce chef-d'œuvre de Gaudí, encore inachevé, est un symbole emblématique de la ville. Prenez le temps de découvrir les détails architecturaux et les vitraux colorés. Ensuite, dirigez-vous vers le parc Güell, une autre création de Gaudí, où vous pourrez flâner parmi les mosaïques vibrantes et profiter de vues imprenables sur la ville."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/exploration-de-barcelone-en-3-jours-photo1.jpg",
+          "alt": "photo1",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "heading": "Jour 2 : Culture et Histoire",
+      "paragraphs": [
+        "Le deuxième jour, immergez-vous dans l'histoire de Barcelone en visitant le quartier gothique. Flânez dans les ruelles étroites, visitez la cathédrale de Barcelone et découvrez le riche patrimoine médiéval de la ville. Ne manquez pas non plus le musée Picasso, qui abrite une vaste collection d'œuvres de l'artiste. Terminez votre journée dans le quartier de El Born, où vous pourrez déguster des tapas dans des bars animés."
+      ],
+      "bullets": [],
+      "images": []
+    },
+    {
+      "heading": "Jour 3 : Détente et Découvertes",
+      "paragraphs": [
+        "Pour votre dernier jour, choisissez de vous détendre sur la plage de Barceloneta ou explorez le parc de la Ciutadella. Ce parc est parfait pour un pique-nique ou une promenade relaxante. Si vous êtes intéressé par l'art contemporain, visitez le musée d'art contemporain de Barcelone (MACBA). En soirée, découvrez le spectacle de fontaines magiques de Montjuïc, une expérience mémorable qui clôturera votre séjour de manière spectaculaire."
+      ],
+      "bullets": [],
+      "images": []
+    }
+  ],
+  "coverImage": "/blog-images/exploration-de-barcelone-en-3-jours-photo1.jpg"
+}

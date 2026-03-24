@@ -1,0 +1,73 @@
+{
+  "title": "Un itinéraire de 3 jours à Barcelone : Découvrez les monuments remarquables",
+  "slug": "itineraire-3-jours-barcelone-monuments-remarquables",
+  "category": "travel",
+  "excerpt": "Explorez Barcelone en 3 jours avec un itinéraire dédié aux monuments emblématiques et aux expériences inoubliables.",
+  "publishedAt": "2026-03-24",
+  "seoDescription": "Un guide pratique pour découvrir les monuments emblématiques de Barcelone en 3 jours.",
+  "sections": [
+    {
+      "heading": "Jour 1 : Sagrada Familia et le quartier gothique",
+      "paragraphs": [
+        "Commencez votre voyage par la visite de la célèbre Sagrada Familia, un chef-d'œuvre inachevé de l'architecte Antoni Gaudí. Assurez-vous de réserver vos billets à l'avance pour éviter les longues files d'attente. Après avoir admiré l'architecture unique de la basilique, dirigez-vous vers le quartier gothique. Promenez-vous dans ses ruelles médiévales, visitez la cathédrale de Barcelone et découvrez des places cachées comme la Plaça del Rei."
+      ],
+      "bullets": [
+        "Réservez vos billets pour la Sagrada Familia en ligne.",
+        "Ne manquez pas la vue depuis les tours de la basilique."
+      ],
+      "images": [
+        {
+          "src": "/blog-images/itineraire-3-jours-barcelone-monuments-remarquables-photo3.jpg",
+          "alt": "Sagrada de Familia",
+          "caption": "Sagrada de Familia"
+        }
+      ]
+    },
+    {
+      "heading": "Jour 2 : Montserrat et ses paysages majestueux",
+      "paragraphs": [
+        "Le deuxième jour, partez à la découverte de Montserrat, un monastère situé à environ une heure de Barcelone. Accessible par train, Montserrat offre des paysages à couper le souffle et des sentiers de randonnée. Assurez-vous de visiter la basilique où se trouve la statue de la Vierge Noire. Si vous êtes amateur de randonnée, le sentier vers le sommet de Sant Jeroni vous récompensera avec une vue panoramique sur les montagnes environnantes."
+      ],
+      "bullets": [
+        "Prenez le train tôt le matin pour profiter pleinement de la journée.",
+        "Emportez de l'eau et des collations pour la randonnée."
+      ],
+      "images": [
+        {
+          "src": "/blog-images/itineraire-3-jours-barcelone-monuments-remarquables-photo2.jpg",
+          "alt": "Montserrat",
+          "caption": "Montserrat"
+        }
+      ]
+    },
+    {
+      "heading": "Jour 3 : Parc Güell et la plage de Barcelone",
+      "paragraphs": [
+        "Pour votre dernière journée, commencez par le Parc Güell, un autre chef-d'œuvre de Gaudí. Promenez-vous dans ce parc coloré, rempli de mosaïques et d'éléments architecturaux uniques. Après avoir exploré le parc, dirigez-vous vers la plage de Barcelone pour vous détendre et profiter du soleil. C'est l'endroit idéal pour savourer un déjeuner dans l'un des nombreux restaurants de bord de mer et pour vous plonger dans l'ambiance animée de la ville."
+      ],
+      "bullets": [
+        "Visitez le Parc Güell tôt le matin pour éviter la foule.",
+        "Essayez des tapas dans un restaurant près de la plage."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Conseils pratiques pour votre voyage",
+      "paragraphs": [
+        "Avant de partir, voici quelques conseils pour maximiser votre expérience à Barcelone. Téléchargez une application de transport pour naviguer facilement dans la ville et envisagez d'acheter un pass touristique pour accéder à plusieurs attractions à un prix réduit. N'oubliez pas de goûter aux spécialités locales comme la paella et le churros avec du chocolat. Enfin, gardez à l'esprit que la sieste est une tradition ici, donc planifiez vos visites en fonction des horaires d'ouverture."
+      ],
+      "bullets": [
+        "Prenez des chaussures confortables pour marcher.",
+        "Apprenez quelques mots de base en espagnol pour interagir avec les locaux."
+      ],
+      "images": [
+        {
+          "src": "/blog-images/itineraire-3-jours-barcelone-monuments-remarquables-photo1.jpg",
+          "alt": "photo1",
+          "caption": ""
+        }
+      ]
+    }
+  ],
+  "coverImage": "/blog-images/itineraire-3-jours-barcelone-monuments-remarquables-photo1.jpg"
+}

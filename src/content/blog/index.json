@@ -1,5 +1,13 @@
 [
   {
+    "slug": "concepts-cles-vue-3",
+    "title": "Les Concepts Clés de Vue 3 : Un Guide pour Développeurs",
+    "excerpt": "Découvrez les concepts fondamentaux de Vue 3 et comment les appliquer pour améliorer vos projets de développement web.",
+    "category": "tech",
+    "publishedAt": "2026-04-03",
+    "coverImage": "/blog-covers/concepts-cles-vue-3.svg"
+  },
+  {
     "slug": "nezabyvayemye-5-dney-v-barselone",
     "title": "Незабываемые 5 дней в Барселоне: путешествие и MWC26",
     "excerpt": "Проведите 5 насыщенных дней в Барселоне, сочетая посещение достопримечательностей с участием в MWC26.",

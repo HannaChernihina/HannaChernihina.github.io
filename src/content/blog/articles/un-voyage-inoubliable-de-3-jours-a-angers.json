@@ -1,0 +1,52 @@
+{
+  "title": "Un Voyage Inoubliable de 3 Jours à Angers",
+  "slug": "un-voyage-inoubliable-de-3-jours-a-angers",
+  "category": "travel",
+  "excerpt": "Découvrez Angers en 3 jours riches en culture, histoire et gastronomie avec cet itinéraire détaillé.",
+  "publishedAt": "2026-04-03",
+  "seoDescription": "Explorez Angers avec ce guide d'itinéraire de 3 jours.",
+  "sections": [
+    {
+      "heading": "Jour 1 : Plongée dans l'Histoire au Château d'Angers",
+      "paragraphs": [
+        "Commencez votre voyage par une visite au Château d'Angers, un monument emblématique qui surplombe la ville. Ses murs imposants et ses douves vous plongeront directement dans l'histoire médiévale. À l'intérieur, ne manquez pas la célèbre Tenture de l'Apocalypse, un chef-d'œuvre de l'art textile du XIVe siècle qui raconte l'Apocalypse selon Saint Jean. Le château offre également une vue imprenable sur la Maine, parfaite pour des photos mémorables."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/un-voyage-inoubliable-de-3-jours-a-angers-photo1.jpg",
+          "alt": "Le vue depuis Château d’Angers",
+          "caption": "Le vue depuis Château d’Angers"
+        },
+        {
+          "src": "/blog-images/un-voyage-inoubliable-de-3-jours-a-angers-photo2.jpg",
+          "alt": "Le tinture d’apocalypse",
+          "caption": "Le tinture d’apocalypse"
+        }
+      ]
+    },
+    {
+      "heading": "Jour 2 : Découverte des Églises et de l'Art Local",
+      "paragraphs": [
+        "Le deuxième jour commence par la visite de l'Église de Saint Mauris, un exemple frappant de l'architecture religieuse angevine. Admirez ses vitraux colorés et son ambiance paisible, idéale pour une pause méditative. Après cela, dirigez-vous vers le Musée des Beaux-Arts d'Angers, où vous pourrez explorer une collection variée d'œuvres d'art, allant du Moyen Âge à l'art contemporain. Ce musée est un véritable trésor pour les amateurs d'art."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/un-voyage-inoubliable-de-3-jours-a-angers-photo3.jpg",
+          "alt": "L’église de Sait Mauris Angers",
+          "caption": "L’église de Sait Mauris Angers"
+        }
+      ]
+    },
+    {
+      "heading": "Jour 3 : Flânerie dans les Jardins et Dégustation Culinaire",
+      "paragraphs": [
+        "Le dernier jour est parfait pour se détendre dans les Jardins des Plantes, un espace verdoyant où vous pourrez vous promener et profiter de la nature. Ces jardins sont un excellent endroit pour un pique-nique ou simplement pour vous reposer. Pour le déjeuner, ne manquez pas de goûter aux spécialités locales comme le 'Pâté aux Prunes' dans l'un des restaurants traditionnels. Terminez votre voyage par une balade le long de la Maine, où vous pourrez apprécier la beauté du paysage angevin."
+      ],
+      "bullets": [],
+      "images": []
+    }
+  ],
+  "coverImage": "/blog-images/un-voyage-inoubliable-de-3-jours-a-angers-photo1.jpg"
+}

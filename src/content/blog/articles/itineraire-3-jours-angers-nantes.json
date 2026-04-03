@@ -1,0 +1,74 @@
+{
+  "title": "Un Itinéraire de 3 Jours à Angers et Nantes",
+  "slug": "itineraire-3-jours-angers-nantes",
+  "category": "travel",
+  "excerpt": "Découvrez un itinéraire bien pensé pour explorer Angers et Nantes en trois jours, avec des conseils pratiques et des incontournables.",
+  "publishedAt": "2026-04-03",
+  "seoDescription": "Explorez Angers et Nantes en trois jours avec cet itinéraire détaillé et des conseils pratiques.",
+  "sections": [
+    {
+      "heading": "Jour 1 : Découverte d'Angers",
+      "paragraphs": [
+        "Commencez votre aventure à Angers, une ville riche en histoire et en culture. Votre première étape devrait être le Château d’Angers, une forteresse médiévale impressionnante qui abrite la célèbre Tenture de l'Apocalypse. Prenez le temps d'explorer les jardins et admirez la vue depuis les remparts."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/itineraire-3-jours-angers-nantes-photo1.jpg",
+          "alt": "Vue depuis le château d’Angers",
+          "caption": "Vue depuis le château d’Angers"
+        },
+        {
+          "src": "/blog-images/itineraire-3-jours-angers-nantes-photo2.jpg",
+          "alt": "Château d’Angers",
+          "caption": "Château d’Angers"
+        }
+      ]
+    },
+    {
+      "heading": "Jour 1 : Visite de la Cathédrale et des Églises",
+      "paragraphs": [
+        "Après avoir visité le château, dirigez-vous vers la Cathédrale Saint-Maurice. Ce magnifique édifice gothique est un exemple remarquable de l'architecture médiévale. Ne manquez pas l'Église de Saint Mauris, un autre joyau caché qui mérite une visite pour son histoire et son ambiance paisible."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/itineraire-3-jours-angers-nantes-photo3.jpg",
+          "alt": "Église de Saint Mauris d’Angers",
+          "caption": "Église de Saint Mauris d’Angers"
+        }
+      ]
+    },
+    {
+      "heading": "Jour 2 : Exploration de Nantes",
+      "paragraphs": [
+        "Le deuxième jour, prenez le train pour Nantes, une ville dynamique et créative. Commencez par le Château des Ducs de Bretagne, qui abrite un musée fascinant sur l'histoire de la ville. Promenez-vous dans le centre-ville et profitez des nombreuses boutiques et cafés."
+      ],
+      "bullets": [],
+      "images": []
+    },
+    {
+      "heading": "Jour 2 : Les Machines de l'île",
+      "paragraphs": [
+        "Ne manquez pas de visiter Les Machines de l'île, un projet artistique unique qui allie l'imaginaire de Jules Verne et l'univers de Leonardo da Vinci. Le Grand Éléphant, une immense machine de 12 mètres de haut, est un incontournable. Vous aurez la chance de monter à bord et de découvrir les mécanismes de ces œuvres fascinantes."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/itineraire-3-jours-angers-nantes-photo4.jpg",
+          "alt": "Grand elefant de Nantes",
+          "caption": "Grand elefant de Nantes"
+        }
+      ]
+    },
+    {
+      "heading": "Jour 3 : Culture et Détente",
+      "paragraphs": [
+        "Pour votre dernier jour, explorez les musées de Nantes, notamment le Musée d'Arts qui présente une vaste collection d'œuvres allant du Moyen Âge au contemporain. Terminez votre journée par une promenade le long de la Loire, où vous pourrez admirer les vues magnifiques et profiter de l'ambiance relaxante."
+      ],
+      "bullets": [],
+      "images": []
+    }
+  ],
+  "coverImage": "/blog-images/itineraire-3-jours-angers-nantes-photo1.jpg"
+}

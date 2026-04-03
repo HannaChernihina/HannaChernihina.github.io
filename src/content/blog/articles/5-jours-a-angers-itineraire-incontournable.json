@@ -1,0 +1,68 @@
+{
+  "title": "5 Jours à Angers: Un Itinéraire Incontournable",
+  "slug": "5-jours-a-angers-itineraire-incontournable",
+  "category": "travel",
+  "excerpt": "Découvrez Angers à travers un itinéraire de 5 jours, alliant culture, gastronomie et paysages époustouflants.",
+  "publishedAt": "2026-04-03",
+  "seoDescription": "Explorez Angers avec ce guide de 5 jours plein d'activités et de conseils pratiques.",
+  "sections": [
+    {
+      "heading": "Jour 1: Découverte du Château d'Angers",
+      "paragraphs": [
+        "Commencez votre aventure à Angers par la visite du majestueux Château d'Angers, une forteresse médiévale impressionnante qui abrite la célèbre Tenture de l'Apocalypse. Ce chef-d'œuvre textile, long de 100 mètres, dépeint des scènes bibliques fascinantes et constitue un trésor inestimable de l'art médiéval. Prévoyez du temps pour explorer les jardins suspendus qui entourent le château, offrant une vue panoramique sur la ville."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/5-jours-a-angers-itineraire-incontournable-photo1.jpg",
+          "alt": "Le tinture de apocalipsis de Château de Angers",
+          "caption": "Le tinture de apocalipsis de Château de Angers"
+        },
+        {
+          "src": "/blog-images/5-jours-a-angers-itineraire-incontournable-photo3.jpg",
+          "alt": "Château de Angers",
+          "caption": "Château de Angers"
+        }
+      ]
+    },
+    {
+      "heading": "Jour 2: Immersion dans l'Histoire d'Angers",
+      "paragraphs": [
+        "Le deuxième jour, dirigez-vous vers l'Église de Saint Mauris, un exemple magnifique de l'architecture romane. L'intérieur de l'église est tout aussi impressionnant, avec ses sculptures détaillées et ses vitraux colorés qui racontent les histoires des saints. Après votre visite, flânez dans les rues pavées du centre-ville et découvrez les boutiques artisanales et les cafés où vous pourrez déguster des spécialités locales."
+      ],
+      "bullets": [],
+      "images": [
+        {
+          "src": "/blog-images/5-jours-a-angers-itineraire-incontournable-photo2.jpg",
+          "alt": "L’eglise de Saint Mauris Angers",
+          "caption": "L’eglise de Saint Mauris Angers"
+        }
+      ]
+    },
+    {
+      "heading": "Jour 3: Art et Culture",
+      "paragraphs": [
+        "Pour le troisième jour, explorez le Musée des Beaux-Arts d'Angers, qui abrite une collection variée allant de la peinture classique à l'art contemporain. Ne manquez pas les expositions temporaires qui mettent en lumière des artistes locaux et internationaux. Après-midi, faites une pause au Parc de Balzac, un espace vert paisible où vous pourrez vous détendre ou pique-niquer tout en profitant du paysage."
+      ],
+      "bullets": [],
+      "images": []
+    },
+    {
+      "heading": "Jour 4: Gastronomie Angevine",
+      "paragraphs": [
+        "Le quatrième jour est dédié à la gastronomie. Visitez l'un des marchés locaux pour découvrir les produits du terroir, comme le vin d'Anjou et les rillettes. Inscrivez-vous à un atelier de cuisine pour apprendre à préparer des plats traditionnels, ou réservez une table dans un restaurant réputé pour déguster un repas typiquement angevin. Terminez la journée par une promenade le long de la Maine, où vous pourrez admirer le coucher de soleil."
+      ],
+      "bullets": [],
+      "images": []
+    },
+    {
+      "heading": "Jour 5: Excursion aux Environs d'Angers",
+      "paragraphs": [
+        "Pour votre dernier jour, envisagez une excursion dans les environs d'Angers. Le village de Brissac-Quincé est célèbre pour son château, le Château de Brissac, le plus haut château de France. Vous pouvez également visiter les vignobles de la vallée de la Loire pour une dégustation de vin. Ces expériences vous permettront de découvrir la richesse culturelle et naturelle de la région."
+      ],
+      "bullets": [],
+      "images": []
+    }
+  ],
+  "coverImage": "/blog-images/5-jours-a-angers-itineraire-incontournable-photo1.jpg"
+}

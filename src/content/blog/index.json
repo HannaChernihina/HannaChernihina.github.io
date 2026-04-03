@@ -1,5 +1,13 @@
 [
   {
+    "slug": "un-voyage-inoubliable-a-barcelone",
+    "title": "Un Voyage Inoubliable à Barcelone : Itinéraire et Conseils Pratiques",
+    "excerpt": "Découvrez les incontournables de Barcelone avec cet itinéraire détaillé et des conseils pratiques pour profiter au maximum de votre séjour.",
+    "category": "travel",
+    "publishedAt": "2026-04-03",
+    "coverImage": "/blog-covers/un-voyage-inoubliable-a-barcelone.svg"
+  },
+  {
     "slug": "concepts-cles-vue-3",
     "title": "Les Concepts Clés de Vue 3 : Un Guide pour Développeurs",
     "excerpt": "Découvrez les concepts fondamentaux de Vue 3 et comment les appliquer pour améliorer vos projets de développement web.",

@@ -1,0 +1,85 @@
+{
+  "title": "Un Itinéraire de 3 Jours à Barcelone : Découverte des Incontournables",
+  "slug": "itineraire-3-jours-barcelone",
+  "category": "travel",
+  "excerpt": "Découvrez les merveilles de Barcelone en trois jours, avec un itinéraire riche en culture, gastronomie et architecture.",
+  "publishedAt": "2026-04-10",
+  "seoDescription": "Explorez Barcelone en 3 jours avec cet itinéraire complet.",
+  "sections": [
+    {
+      "heading": "Jour 1 : Les Joyaux de la Ville",
+      "paragraphs": [
+        "Pour commencer votre aventure à Barcelone, dirigez-vous vers l'Arc de Triomphe, un monument emblématique qui marque l'entrée au Parc de la Ciutadella. Ce parc est parfait pour une promenade matinale, où vous pouvez profiter de la verdure et visiter le zoo de Barcelone. Après cela, faites une halte au célèbre marché de la Boqueria pour un déjeuner léger avec des produits frais et locaux."
+      ],
+      "bullets": [
+        "Visitez l'Arc de Triomphe dès le matin."
+      ],
+      "images": [
+        {
+          "src": "/blog-images/itineraire-3-jours-barcelone-photo1.jpg",
+          "alt": "l’arc Triomf",
+          "caption": "l’arc Triomf"
+        }
+      ]
+    },
+    {
+      "heading": "Jour 2 : La Magie de Gaudí",
+      "paragraphs": [
+        "Le deuxième jour, plongez dans l'univers de Gaudí. Commencez par la Sagrada Família, une basilique unique qui est en construction depuis plus d'un siècle. Il est conseillé de réserver vos billets à l'avance pour éviter les longues files d'attente. Ensuite, dirigez-vous vers le parc Güell, un autre chef-d'œuvre de Gaudí, où vous pourrez explorer des mosaïques colorées et des vues panoramiques sur la ville. Terminez votre journée par un dîner dans le quartier de Gràcia, connu pour ses tapas authentiques."
+      ],
+      "bullets": [
+        "Réservez à l'avance pour la Sagrada Família."
+      ],
+      "images": [
+        {
+          "src": "/blog-images/itineraire-3-jours-barcelone-photo2.jpg",
+          "alt": "Sagrade Familia",
+          "caption": "Sagrade Familia"
+        }
+      ]
+    },
+    {
+      "heading": "Jour 3 : Excursion à Montserrat",
+      "paragraphs": [
+        "Pour le dernier jour, envisagez une excursion à Montserrat, un monastère situé sur une montagne spectaculaire à environ une heure de Barcelone. Vous pouvez prendre un train depuis la Plaça d'Espanya, qui offre des vues imprenables pendant le trajet. Sur place, visitez la basilique et la célèbre statue de la Vierge Noire, puis partez en randonnée sur les sentiers environnants pour profiter du paysage dramatique. C'est une excellente façon de terminer votre séjour, en vous éloignant de l'agitation de la ville."
+      ],
+      "bullets": [
+        "Prévoyez des chaussures de randonnée pour Montserrat."
+      ],
+      "images": [
+        {
+          "src": "/blog-images/itineraire-3-jours-barcelone-photo3.jpg",
+          "alt": "Monseratte",
+          "caption": "Monseratte"
+        }
+      ]
+    },
+    {
+      "heading": "Conseils Pratiques",
+      "paragraphs": [
+        "Assurez-vous de télécharger une application de transport en commun pour naviguer facilement dans la ville. Les cartes de transport public sont également disponibles pour les visiteurs. N'oubliez pas de goûter à des plats locaux comme la paella et les churros. Enfin, soyez attentif aux horaires d'ouverture des attractions, car ils peuvent varier selon la saison."
+      ],
+      "bullets": [
+        "Utilisez les transports en commun pour gagner du temps."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Événements à Ne Pas Manquer",
+      "paragraphs": [
+        "Si vous êtes à Barcelone en février, ne manquez pas le Mobile World Congress (MWC26), un événement majeur pour les passionnés de technologie. C'est une excellente occasion de découvrir les dernières innovations et de rencontrer des professionnels du secteur. Vérifiez le calendrier des événements pour voir ce qui se passe pendant votre séjour."
+      ],
+      "bullets": [
+        "Assistez à des événements comme le MWC26 si possible."
+      ],
+      "images": [
+        {
+          "src": "/blog-images/itineraire-3-jours-barcelone-photo4.jpg",
+          "alt": "MWC26",
+          "caption": "MWC26"
+        }
+      ]
+    }
+  ],
+  "coverImage": "/blog-images/itineraire-3-jours-barcelone-photo1.jpg"
+}

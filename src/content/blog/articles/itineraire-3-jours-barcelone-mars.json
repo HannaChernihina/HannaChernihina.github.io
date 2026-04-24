@@ -1,0 +1,64 @@
+{
+  "title": "Un Itinéraire de 3 Jours à Barcelone en Mars",
+  "slug": "itineraire-3-jours-barcelone-mars",
+  "category": "travel",
+  "excerpt": "Découvrez un itinéraire détaillé pour explorer Barcelone en trois jours, en profitant des meilleures attractions et expériences locales.",
+  "publishedAt": "2026-04-24",
+  "seoDescription": "Explorez Barcelone en trois jours avec ce guide pratique.",
+  "sections": [
+    {
+      "heading": "Jour 1 : Découverte des Joyaux de la Ville",
+      "paragraphs": [
+        "Commencez votre aventure à Barcelone par une visite de la célèbre Sagrada Familia, l'œuvre emblématique de Gaudí. Prenez le temps d'admirer ses façades détaillées et son architecture unique. N'oubliez pas de réserver vos billets à l'avance pour éviter les longues files d'attente. Après cette immersion dans l'art, dirigez-vous vers l'Arc de Triomphe, un monument qui représente une entrée majestueuse dans le parc de la Ciutadella, parfait pour une promenade tranquille."
+      ],
+      "bullets": [
+        "Réservez vos billets en ligne pour la Sagrada Familia."
+      ],
+      "images": [
+        {
+          "src": "/blog-images/itineraire-3-jours-barcelone-mars-photo2.jpg",
+          "alt": "Sagrada Familia",
+          "caption": "Sagrada Familia"
+        },
+        {
+          "src": "/blog-images/itineraire-3-jours-barcelone-mars-photo3.jpg",
+          "alt": "l’arc de Triumf",
+          "caption": "l’arc de Triumf"
+        }
+      ]
+    },
+    {
+      "heading": "Jour 2 : Nature et Culture à Montserrat",
+      "paragraphs": [
+        "Le deuxième jour, partez pour une excursion à Montserrat, une montagne spectaculaire à environ une heure de Barcelone. La visite de l'abbaye de Montserrat est un incontournable, où vous pourrez voir la statue de la Vierge Noire. Pour les amateurs de randonnée, les sentiers autour de Montserrat offrent des panoramas à couper le souffle. Pensez à prendre un pique-nique pour profiter de la nature environnante."
+      ],
+      "bullets": [
+        "Prenez le train pour Montserrat pour une vue imprenable."
+      ],
+      "images": [
+        {
+          "src": "/blog-images/itineraire-3-jours-barcelone-mars-photo1.jpg",
+          "alt": "Monserat",
+          "caption": "Monserat"
+        }
+      ]
+    },
+    {
+      "heading": "Jour 3 : Technologie et Innovation au MWC26",
+      "paragraphs": [
+        "Si vous êtes à Barcelone en mars, ne manquez pas le Mobile World Congress (MWC26), un événement phare pour les passionnés de technologie. Vous aurez l'occasion de découvrir les dernières innovations en matière de smartphones, d'applications et de technologies émergentes. C'est également un excellent moment pour réseauter avec des professionnels du secteur. En soirée, explorez le quartier gothique pour une expérience culinaire dans l'un des nombreux restaurants locaux."
+      ],
+      "bullets": [
+        "Inscrivez-vous à l'avance pour le MWC26 et préparez-vous à être inspiré."
+      ],
+      "images": [
+        {
+          "src": "/blog-images/itineraire-3-jours-barcelone-mars-photo4.jpg",
+          "alt": "MWC26",
+          "caption": "MWC26"
+        }
+      ]
+    }
+  ],
+  "coverImage": "/blog-images/itineraire-3-jours-barcelone-mars-photo1.jpg"
+}

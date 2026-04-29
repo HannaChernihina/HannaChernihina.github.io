@@ -1,0 +1,79 @@
+{
+  "title": "3-Day Itinerary for an Unforgettable Trip to Barcelona",
+  "slug": "3-day-itinerary-barcelona",
+  "category": "travel",
+  "excerpt": "Explore the vibrant city of Barcelona in three days, covering iconic sites, hidden gems, and practical travel tips for an unforgettable experience.",
+  "publishedAt": "2026-04-29",
+  "seoDescription": "Discover an exciting 3-day itinerary for Barcelona with must-see attractions and insider tips.",
+  "sections": [
+    {
+      "heading": "Day 1: Iconic Landmarks",
+      "paragraphs": [
+        "Start your adventure in Barcelona at the world-renowned Sagrada Familia. This masterpiece by architect Antoni Gaudí is a must-see, with its intricate facades and towering spires. Take your time to explore the interior, where natural light pours in through stained glass, creating a serene atmosphere. Purchasing tickets online in advance is advisable to avoid long queues."
+      ],
+      "bullets": [
+        "Visit Park Güell in the afternoon for colorful mosaics and stunning city views."
+      ],
+      "images": [
+        {
+          "src": "/blog-images/3-day-itinerary-barcelona-photo1.jpg",
+          "alt": "Sagrada Familia",
+          "caption": "Sagrada Familia"
+        }
+      ]
+    },
+    {
+      "heading": "Day 2: Culture and Nature",
+      "paragraphs": [
+        "On your second day, take a day trip to Montserrat, located about an hour from Barcelona. This stunning mountain range is home to a Benedictine monastery and offers breathtaking views. Hike the trails for a closer look at the unique rock formations, or simply enjoy the peace of the surroundings. Make sure to sample local delicacies at the market near the monastery."
+      ],
+      "bullets": [
+        "Don't miss the chance to listen to the famous boys' choir if visiting on a weekday."
+      ],
+      "images": [
+        {
+          "src": "/blog-images/3-day-itinerary-barcelona-photo2.jpg",
+          "alt": "Monseratt",
+          "caption": "Monseratt"
+        }
+      ]
+    },
+    {
+      "heading": "Day 3: Exploring the City",
+      "paragraphs": [
+        "Dedicate your final day to exploring the heart of Barcelona. Start at L’Arc de Triomf, a beautiful archway that serves as the gateway to the Ciutadella Park. Spend the morning wandering through the park, which features a lake, a zoo, and several museums. In the afternoon, head to the Gothic Quarter to lose yourself in its narrow streets filled with history, shops, and tapas bars."
+      ],
+      "bullets": [
+        "Try traditional tapas at a local bar for an authentic culinary experience."
+      ],
+      "images": [
+        {
+          "src": "/blog-images/3-day-itinerary-barcelona-photo3.jpg",
+          "alt": "L’arc de Triomf",
+          "caption": "L’arc de Triomf"
+        }
+      ]
+    },
+    {
+      "heading": "Practical Tips for Travelers",
+      "paragraphs": [
+        "When visiting Barcelona, it's essential to consider the city's public transportation system. The metro is efficient and connects you to most tourist attractions. Additionally, purchasing a T-10 ticket, which allows ten rides, can save you money. Also, remember to keep your belongings secure, especially in crowded areas, as pickpocketing can be common."
+      ],
+      "bullets": [
+        "Download local apps for navigation and restaurant recommendations."
+      ],
+      "images": []
+    },
+    {
+      "heading": "Cultural Etiquette",
+      "paragraphs": [
+        "Understanding local customs can enhance your experience. In Barcelona, it's polite to greet with a 'Hola' or 'Bon dia' and to say 'Gràcies' when thanking someone. Tipping is appreciated, but not mandatory; rounding up your bill is often sufficient."
+      ],
+      "bullets": [
+        "Engage with locals for insights into hidden gems."
+      ],
+      "images": []
+    }
+  ],
+  "coverImage": "/blog-images/3-day-itinerary-barcelona-photo1.jpg"
+}

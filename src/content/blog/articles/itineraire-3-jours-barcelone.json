@@ -1,50 +1,50 @@
 {
-  "title": "Un itinéraire de 3 jours à Barcelone : Culture et découvertes",
+  "title": "Un Itinéraire de 3 Jours à Barcelone : Culture et Découvertes",
   "slug": "itineraire-3-jours-barcelone",
   "category": "travel",
-  "excerpt": "Découvrez Barcelone en trois jours avec cet itinéraire captivant, alliant culture, gastronomie et paysages à couper le souffle.",
-  "publishedAt": "2026-04-15",
-  "seoDescription": "Explorez Barcelone avec notre guide de voyage de trois jours.",
+  "excerpt": "Découvrez un itinéraire de 3 jours à Barcelone, alliant culture, gastronomie et paysages impressionnants, avec des conseils pratiques.",
+  "publishedAt": "2026-05-04",
+  "seoDescription": "Explorez un itinéraire de 3 jours à Barcelone pour une immersion culturelle.",
   "sections": [
     {
-      "heading": "Jour 1 : La magie de Gaudí",
+      "heading": "Jour 1 : La Magie de la Ville",
       "paragraphs": [
-        "Commencez votre aventure à Barcelone par la visite de la célèbre Sagrada Familia, un chef-d'œuvre inachevé de Gaudí. Réservez vos billets à l'avance pour éviter les longues files d'attente et profitez de la visite audio qui vous expliquera les détails architecturaux fascinants. Ensuite, dirigez-vous vers le parc Güell, un autre site emblématique de Gaudí, où vous pourrez vous promener parmi des mosaïques colorées et des sculptures uniques tout en admirant une vue imprenable sur la ville."
+        "Commencez votre aventure à Barcelone par une visite de la célèbre Sagrada Familia, véritable chef-d'œuvre de Gaudí. Prenez le temps d'admirer les détails architecturaux avant de vous diriger vers le parc Güell, un autre site emblématique. Dans l'après-midi, promenez-vous dans les ruelles du quartier gothique pour découvrir des trésors cachés et savourer un café dans l'une des nombreuses places pavées."
       ],
       "bullets": [],
       "images": [
         {
-          "src": "/blog-images/itineraire-3-jours-barcelone-photo1.jpg",
+          "src": "/blog-images/itineraire-3-jours-barcelone-photo2.jpg",
           "alt": "Sagrada Familia",
           "caption": "Sagrada Familia"
         }
       ]
     },
     {
-      "heading": "Jour 2 : Évasion à Montserrat",
+      "heading": "Jour 2 : Excursion à Montserrat",
       "paragraphs": [
-        "Le deuxième jour, prenez le train pour Montserrat, un massif montagneux situé à environ une heure de Barcelone. Montserrat est célèbre pour son monastère, son sanctuaire et sa beauté naturelle. Vous pouvez choisir de faire une randonnée sur l'un des nombreux sentiers qui serpentent à travers la montagne, ou simplement explorer le monastère et admirer la vue spectaculaire. N'oubliez pas de goûter à la crème de Montserrat, une spécialité locale."
+        "Le deuxième jour, partez pour une excursion à Montserrat, un massif montagneux à proximité de Barcelone. La beauté naturelle de la région est à couper le souffle, et le monastère bénédictin abrite une célèbre statue de la Vierge noire. Prévoyez de faire une randonnée pour explorer les sentiers et profiter de vues panoramiques sur la Catalogne. N'oubliez pas de goûter à la gastronomie locale dans l'un des restaurants du site."
       ],
       "bullets": [],
       "images": [
         {
-          "src": "/blog-images/itineraire-3-jours-barcelone-photo2.jpg",
-          "alt": "Montserrat",
-          "caption": "Montserrat"
+          "src": "/blog-images/itineraire-3-jours-barcelone-photo1.jpg",
+          "alt": "Monseratt",
+          "caption": "Monseratt"
         }
       ]
     },
     {
-      "heading": "Jour 3 : Culture et gastronomie",
+      "heading": "Jour 3 : Innovation et Culture au MWC",
       "paragraphs": [
-        "Pour votre dernier jour, commencez par une visite de l'Arc de Triomphe, un monument impressionnant qui marque l'entrée au parc de la Ciutadella. Prenez le temps de flâner dans le parc, de visiter le zoo de Barcelone ou de simplement profiter de la nature. Dans l'après-midi, dirigez-vous vers le quartier gothique pour explorer ses ruelles étroites, ses boutiques artisanales et ses cafés pittoresques. Terminez votre séjour par un dîner dans un restaurant traditionnel catalan, où vous pourrez déguster des plats locaux comme la paella ou le tapas."
+        "Terminez votre séjour en visitant le Mobile World Congress (MWC), un événement majeur pour les passionnés de technologie. Même si vous n'assistez pas à la conférence, le quartier environnant regorge de start-ups et d'innovations. Profitez-en pour découvrir des boutiques uniques et des espaces de co-working. En soirée, détendez-vous dans un bar à tapas et savourez quelques-unes des meilleures spécialités culinaires de Barcelone."
       ],
       "bullets": [],
       "images": [
         {
           "src": "/blog-images/itineraire-3-jours-barcelone-photo3.jpg",
-          "alt": "L’arc de Triumf",
-          "caption": "L’arc de Triumf"
+          "alt": "MWC26",
+          "caption": "MWC26"
         }
       ]
     }
